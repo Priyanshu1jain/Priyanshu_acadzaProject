@@ -1,0 +1,42 @@
+{
+  "6062ec84518e9535e120c422": [
+    {
+      "answer": "A",
+      "working": "ΔL=0.19 cm, L0=100 cm, ΔT=100 °C. Linear coeff α=ΔL/(L0ΔT)=0.19/(100×100)=1.9×10⁻⁵ °C⁻¹. Cubical coeff β=3α=3×1.9×10⁻⁵=5.7×10⁻⁵ °C⁻¹. Hence option A.",
+      "needs_figure": false,
+      "missing_information": false,
+      "unsound": false,
+      "confidence": 0.99,
+      "answer_canon": "A"
+    },
+    {
+      "answer": "A",
+      "working": "Linear expansion α = ΔL/(L0ΔT) = 0.19 cm/(100 cm·100 °C)=1.9×10⁻⁵ °C⁻¹. Cubical expansion β≈3α=3×1.9×10⁻⁵=5.7×10⁻⁵ °C⁻¹. Hence option A.",
+      "needs_figure": false,
+      "missing_information": false,
+      "unsound": false,
+      "confidence": 0.99,
+      "answer_canon": "A"
+    }
+  ],
+  "60ca4feb6420652745f55522": [
+    {
+      "answer": "C",
+      "working": "Original force F=kq1q2/r^2=100N. New charges: q1'=1.1q1, q2'=0.9q2. New force F'=k(1.1q1)(0.9q2)/r^2=0.99·kq1q2/r^2=0.99·100N=99N.",
+      "needs_figure": false,
+      "missing_information": false,
+      "unsound": false,
+      "confidence": 1.0,
+      "answer_canon": "C"
+    },
+    {
+      "answer": "C",
+      "working": "Coulomb's law: F∝q1q2. New charges: q1'=1.1q1, q2'=0.9q2 ⇒ q1'q2'=1.1×0.9 q1q2=0.99 q1q2. Hence F'=0.99×100 N=99 N.",
+      "needs_figure": false,
+      "missing_information": false,
+      "unsound": false,
+      "confidence": 1.0,
+      "answer_canon": "C"
+    }
+  ]
+}

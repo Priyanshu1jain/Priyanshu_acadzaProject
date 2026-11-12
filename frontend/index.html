@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Acadza Console</title>
+<style>
+:root{--qbg:#fcfcff;--okt:#14532d;--badt:#7f1d1d;--wt:#7c4a03;--bg:#f4f6fb;--card:#fff;--ink:#1c2340;--mut:#6b7392;--line:#e4e8f2;--pri:#4f46e5;--pri2:#eef0ff;--ok:#16a34a;--okb:#e8f8ee;--bad:#dc2626;--badb:#fdecec;--warn:#d97706;--warnb:#fff4e0;--side:#14183a}
+[data-theme=dark]{--bg:#0f1226;--card:#181c3a;--ink:#e8eaf8;--mut:#9aa1c7;--line:#2a3060;--pri:#7c83ff;--pri2:#252a66;--okb:#10301d;--badb:#3a1616;--warnb:#3a2a0c;--qbg:#12152f;--okt:#86efac;--badt:#fca5a5;--wt:#fcd34d;--side:#0b0d22;--ok:#4ade80;--bad:#f87171;--warn:#fbbf24}*{box-sizing:border-box}body{margin:0;font:14px/1.5 system-ui,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg);height:100vh;display:flex;flex-direction:column}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--card);border-radius:8px;padding:6px 12px;color:var(--ink)}button:hover{background:var(--pri2)}
+button.p{background:var(--pri);color:#fff;border-color:var(--pri)}button.g{background:var(--ok);color:#fff;border-color:var(--ok)}button.r{background:var(--card);color:var(--bad);border-color:#f3b4b4}button:disabled{opacity:.4;cursor:not-allowed}
+textarea,input,select{font:inherit;width:100%;border:1px solid var(--line);border-radius:8px;padding:8px;background:var(--card);color:var(--ink)}textarea{resize:vertical}
+header{height:56px;background:var(--card);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:14px;padding:0 16px;flex:none}
+.logo{font-weight:800;font-size:19px;color:var(--pri);letter-spacing:-.5px}.logo b{color:#f59e0b}
+nav.top{display:flex;gap:2px;flex:1;overflow:auto}nav.top a{padding:8px 12px;border-radius:8px;color:var(--mut);cursor:pointer;white-space:nowrap;font-weight:500}nav.top a:hover{background:var(--bg)}nav.top a.on{color:var(--pri);background:var(--pri2)}
+.badge{background:var(--bad);color:#fff;border-radius:10px;padding:0 6px;font-size:11px;margin-left:4px}
+.who{display:flex;align-items:center;gap:8px}.who select{width:auto;font-weight:600}
+.av{width:32px;height:32px;border-radius:50%;background:var(--pri);color:#fff;display:grid;place-items:center;font-weight:700}
+.body{flex:1;display:flex;min-height:0}
+aside{display:flex;flex-direction:column;width:210px;background:var(--side);color:#c9cdea;padding:12px 8px;overflow:auto;transition:width .2s;flex:none}aside.c{width:56px}
+aside a{display:flex;gap:12px;align-items:center;padding:9px 12px;border-radius:8px;cursor:pointer;white-space:nowrap;overflow:hidden}aside a:hover{background:#242a5c}aside a.on{background:var(--pri);color:#fff}aside small{padding:10px 12px 4px;display:block;opacity:.5;text-transform:uppercase;font-size:10px;letter-spacing:1px}aside.c small,aside.c a span+span{display:none}
+main{flex:1;overflow:auto;padding:20px;min-width:0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:14px}.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px}.stat b{font-size:22px;display:block}.stat span{color:var(--mut);font-size:12px}
+.split{display:grid;grid-template-columns:340px 1fr;gap:16px;align-items:start}@media(max-width:900px){.split{grid-template-columns:1fr}}
+.qi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:8px;cursor:pointer}.qi:hover{border-color:var(--pri)}.qi.on{border-color:var(--pri);box-shadow:0 0 0 2px var(--pri2)}
+.chip{display:inline-block;border-radius:20px;padding:1px 9px;font-size:11px;font-weight:600;margin:2px 4px 2px 0;background:var(--bg);color:var(--mut)}
+.chip.ok{background:var(--okb);color:var(--ok)}.chip.bad{background:var(--badb);color:var(--bad)}.chip.warn{background:var(--warnb);color:var(--warn)}.chip.pri{background:var(--pri2);color:var(--pri)}
+.tabs{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}.tabs button.on{background:var(--pri);color:#fff}
+.qbox{border:1px solid var(--line);border-radius:10px;padding:14px;background:var(--qbg);overflow-x:auto}.qbox img{max-width:100%}
+.diff{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}.diff div{padding:8px 10px;border-radius:8px;font-family:ui-monospace,monospace;white-space:pre-wrap;word-break:break-word}.diff .o{background:var(--badb);color:var(--badt)}.diff .n{background:var(--okb);color:var(--okt)}.diff small{display:block;font-family:system-ui;opacity:.7}
+.ev{border-left:3px solid var(--pri);background:var(--pri2);padding:8px 12px;border-radius:0 8px 8px 0;margin:8px 0}
+.warnbox{background:var(--warnb);color:var(--wt);padding:6px 10px;border-radius:8px;font-size:12px;margin:4px 0}
+.stu{background:var(--bg);border-radius:8px;padding:8px 12px;margin:6px 0}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.sp{flex:1}
+.opt{display:inline-flex;width:38px;height:38px;border:2px solid var(--line);border-radius:10px;align-items:center;justify-content:center;font-weight:700;margin-right:8px;cursor:pointer;background:var(--card)}.opt.on{background:var(--pri);color:#fff;border-color:var(--pri)}.opt.key{border-color:var(--ok)}
+.mod{position:fixed;inset:0;background:#0008;display:grid;place-items:center;z-index:9}.mod>div{background:var(--card);border-radius:14px;padding:20px;width:min(680px,94vw);max-height:90vh;overflow:auto}
+label{font-weight:600;font-size:12px;color:var(--mut);display:block;margin:10px 0 4px}
+aside .sp{flex:1}.chip.ai{background:linear-gradient(90deg,#f59e0b,#ef4444);color:#fff}.qi.auto{border-left:4px solid #f59e0b}#toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 18px;border-radius:10px;display:none;z-index:10}
+.mut{color:var(--mut)}.note{font-size:11px;color:var(--mut);margin-top:8px}
+</style></head><body>
+<header><button id="tg" title="Toggle sidebar">☰</button><div class="logo">Acad<b>za</b></div><nav class="top" id="top"></nav>
+<div class="who"><select id="role"><option value="teacher">👩‍🏫 Teacher view</option><option value="student">🎓 Student view</option></select><div class="av" id="av">T</div></div></header>
+<div class="body"><aside id="side"></aside><main id="main"></main></div><div id="toast"></div>
+<script>
+/* All data comes from the FastAPI backend (/api/*). Nothing is stored in this file. */
+const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const S={role:'teacher',view:'reports',tab:'queue',filter:'pending',sel:null,q:'',Q:[],R:[],RES:[],decisions:{},reopen:{},audit:[],replies:{},edits:{},attempt:{}};
+S.theme=localStorage.getItem('acadza_theme')||'light';document.documentElement.dataset.theme=S.theme;
+const toast=m=>{const t=$('#toast');t.textContent=m;t.style.display='block';clearTimeout(toast.h);toast.h=setTimeout(()=>t.style.display='none',2200)};
+async function api(m,u,b){const r=await fetch(u,{method:m,headers:{'Content-Type':'application/json'},body:b?JSON.stringify(b):undefined});if(!r.ok){let d='';try{d=(await r.json()).detail}catch(e){}throw new Error(d||r.statusText)}return r.json()}
+async function refresh(){const[q,r,res,st]=await Promise.all([api('GET','/api/questions'),api('GET','/api/reports'),api('GET','/api/results'),api('GET','/api/state')]);S.Q=q.map(nq);S.R=r.map(nr);S.RES=res;S.decisions=st.decisions;S.reopen=st.reopen;S.audit=st.audit}
+async function run(fn,ok){try{await fn();await refresh();if(ok)toast(ok);render()}catch(e){toast('Error: '+e.message)}}
+const nq=q=>({id:q.id,type:q.type,html:q.html,answer:q.answer,solution:q.solution,edited:q.edited||[]});
+const nr=r=>({id:r.reportId,qid:r.questionId,text:r.comment,stu:r.studentId});
+const eff=id=>S.Q.find(q=>q.id===id);
+/* ===== chrome ===== */
+const TOP={teacher:['Dashboard','Batches','Tests','Questions','Reports','Analytics','Students','Settings'],student:['Home','My Courses','Tests','Questions','Reports','Doubts','Performance']};
+const SIDE={teacher:[['🏠','Dashboard'],['👥','Batches'],['📝','Tests'],['❓','Questions'],['🚩','Reports'],['📊','Analytics'],['📅','Schedule'],['📚','Library']],student:[['🏠','Home'],['📖','My Courses'],['📝','Tests'],['❓','Questions'],['🚩','Reports'],['💬','Doubts'],['🏆','Performance']]};
+const live={Questions:'questions',Reports:'reports'};
+function go(n){if(!live[n]){toast(n+' is not part of this prototype');return}S.view=live[n];S.sel=null;render()}
+function chrome(){const pend=pendingCount();
+$('#top').innerHTML=TOP[S.role].map(n=>`<a class="${live[n]===S.view?'on':''}" onclick="go('${n}')">${n}${n==='Reports'&&S.role==='teacher'&&pend?`<span class="badge">${pend}</span>`:''}</a>`).join('');
+$('#side').innerHTML='<small>Menu</small>'+SIDE[S.role].map(([i,n])=>`<a class="${live[n]===S.view?'on':''}" onclick="go('${n}')"><span>${i}</span><span>${n}</span></a>`).join('')+`<div class="sp"></div><a onclick="toggleTheme()"><span>${S.theme==='dark'?'☀️':'🌙'}</span><span>${S.theme==='dark'?'Light mode':'Dark mode'}</span></a>`;
+$('#av').textContent=S.role==='teacher'?'T':'S'}
+$('#tg').onclick=()=>$('#side').classList.toggle('c');
+$('#role').onchange=e=>{S.role=e.target.value;S.view='reports';S.sel=null;render()};
+/* ===== helpers ===== */
+const status=r=>S.decisions[r.reportId||r.id]?.action||(S.reopen[r.reportId||r.id]?'pending':r.route==='auto_apply'?'auto':r.route==='no_change'?'nochange':'pending');
+const pendingCount=()=>S.RES.filter(r=>status(r)==='pending').length;
+function proposed(r){if(!r)return null;const id=r.reportId||r.id;if(S.edits[id])return S.edits[id];if(r.edit&&r.edit.field)return{field:r.edit.field,to:r.edit.to??r.edit.after??r.edit.new};
+if(r.route==='faculty_review'&&r.suggested_change&&r.independent_answer&&/answer/i.test(r.suggested_change))return{field:'answer',to:r.independent_answer};return null}
+const OKMSG="Sorry for the mistake – you're right, and thanks for catching it! We've corrected the question. Good work, keep flagging anything that looks off.";
+const NOMSG="Thanks for checking! We reviewed this question carefully and the solution is correct as given. Please revisit the solution key or watch the video explanation to review the steps. If a specific step still looks unclear, tell us which part and we'll be happy to help!";
+function defReply(r,a){a=a||(r?status(r):'pending');if(r&&r.student_reply&&['auto','nochange'].includes(a))return r.student_reply;
+return({approved:OKMSG,edited:OKMSG,auto:OKMSG,nochange:NOMSG,rejected:NOMSG,pending:"Thanks for your report! Our faculty is reviewing this question and we'll update you soon."})[a]||''}
+const sentReply=(r,rid)=>{const id=rid||r?.reportId||r?.id;if(id&&S.decisions[id]?.reply)return S.decisions[id].reply;if(id&&S.replies[id])return S.replies[id];return defReply(r)};
+function setReply(rid,v){v=v.trim();if(S.decisions[rid])run(()=>api('POST','/api/reply',{reportId:rid,reply:v}),'Reply updated');else if(v)S.replies[rid]=v;else delete S.replies[rid]}
+function reopen(rid){S.filter='pending';run(()=>api('POST','/api/reopen',{reportId:rid}),'Moved back to Pending for your decision')}
+function toggleTheme(){S.theme=S.theme==='dark'?'light':'dark';localStorage.setItem('acadza_theme',S.theme);document.documentElement.dataset.theme=S.theme;render(1)}
+function groups(){const m={};S.RES.forEach(r=>(m[r.questionId]??=[]).push(r));return Object.entries(m).map(([qid,items])=>{const why=[];let sc=0;const pend=items.filter(r=>status(r)==='pending');
+if(pend.length){sc+=30;why.push('Needs human review')}if(items.length>1){sc+=10*items.length;why.push(items.length+' students reported')}
+if(items.some(r=>/answer/i.test((r.suggested_change||'')+(r.faculty_brief||''))&&r.route!=='no_change')){sc+=15;why.push('Answer key affects marks')}
+if(items.some(r=>(r.guard_log||[]).length)){sc+=5;why.push('Guard flagged')}return{qid,items,pend,sc,why}}).sort((a,b)=>b.sc-a.sc)}
+function modal(h){const d=document.createElement('div');d.className='mod';d.innerHTML='<div>'+h+'</div>';d.onclick=e=>{if(e.target===d)d.remove()};document.body.append(d);return d}
+const closeM=()=>document.querySelector('.mod')?.remove();
+function qHTML(q,key=true){return`<div class="qbox">${q.html}</div>`}
+/* ===== teacher: reports ===== */
+function repTeacher(){const G=groups(),res=S.RES,c=k=>res.filter(r=>status(r)===k).length;
+let f=G.filter(g=>S.filter==='all'||(S.filter==='pending'?g.pend.length:!g.pend.length)).filter(g=>!S.q||g.qid.includes(S.q)||g.items.some(r=>S.R.find(x=>x.id===r.reportId)?.text.toLowerCase().includes(S.q.toLowerCase())));
+S.sel??=f[0]?.qid;const g=G.find(x=>x.qid===S.sel);
+let h=`<div class="stats"><div class="stat"><b>${S.R.length}</b><span>Reports</span></div><div class="stat"><b>${G.length}</b><span>Questions affected</span></div><div class="stat"><b style="color:var(--warn)">${pendingCount()}</b><span>Awaiting review</span></div><div class="stat"><b style="color:var(--ok)">${Object.values(S.decisions).filter(d=>['approved','edited'].includes(d.action)).length}</b><span>Approved</span></div><div class="stat"><b style="color:var(--bad)">${Object.values(S.decisions).filter(d=>d.action==='rejected').length}</b><span>Rejected</span></div><div class="stat"><b>${res.filter(r=>['auto','nochange'].includes(status(r))).length}</b><span>Auto / no change</span></div></div>
+<div class="tabs"><button class="${S.tab==='queue'?'on':''}" onclick="S.tab='queue';render()">Review queue</button><button class="${S.tab==='audit'?'on':''}" onclick="S.tab='audit';render()">Audit log (${S.audit.length})</button></div>`;
+if(S.tab==='audit')return h+`<div class="card">${S.audit.length?S.audit.slice().reverse().map(a=>`<div class="stu"><b>${esc(a.action.toUpperCase())}</b> · ${esc(a.reportId)} · Q ${esc(a.qid.slice(-6))} · ${esc(a.by)} · <span class="mut">${new Date(a.ts).toLocaleString()}</span>${a.field?`<div class="diff"><div class="o"><small>${esc(a.field)} before</small>${esc(a.before)}</div><div class="n"><small>after</small>${esc(a.after)}</div></div>`:''}</div>`).join(''):'<span class="mut">No faculty actions yet.</span>'}</div>`;
+h+=`<div class="split"><div><input placeholder="Search report text or question id…" value="${esc(S.q)}" oninput="S.q=this.value;render(1)" style="margin-bottom:8px"><div class="tabs">${['pending','handled','all'].map(k=>`<button class="${S.filter===k?'on':''}" onclick="S.filter='${k}';S.sel=null;render()">${k[0].toUpperCase()+k.slice(1)}</button>`).join('')}</div>
+${f.map(x=>{const q=eff(x.qid);return`<div class="qi ${x.qid===S.sel?'on':''} ${x.items.some(r=>status(r)==='auto')?'auto':''}" onclick="S.sel='${x.qid}';render()"><div class="row"><b>Q …${x.qid.slice(-6)}</b><span class="chip">${esc(q?.type)}</span><span class="sp"></span>${x.items.some(r=>status(r)==='auto')?'<span class="chip ai">⚡ auto-edited</span>':''}${x.pend.length?`<span class="chip warn">${x.pend.length} pending</span>`:'<span class="chip ok">handled</span>'}</div><div class="mut" style="font-size:12px;margin:4px 0">${x.items.length} report${x.items.length>1?'s':''}</div>${x.why.map(w=>`<span class="chip pri">${w}</span>`).join('')}</div>`}).join('')||'<div class="mut">Nothing here 🎉</div>'}
+<div class="note">Urgency = pending review (30) + 10 per reporting student + answer-key impact (15) + guard flag (5). Shown as chips on each card.</div></div><div>`;
+if(!g)return h+'<div class="card mut">Select a question</div></div></div>';
+const q=eff(g.qid);h+=`<div class="card"><div class="row"><h3 style="margin:0">Question ${g.qid.slice(-6)}</h3><span class="chip">${esc(q?.type)}</span><span class="sp"></span><button onclick="editQ('${g.qid}')">✏️ Edit question</button></div>${q?qHTML(q):''}<div style="margin-top:10px"><b>Answer key:</b> <span class="chip ok">${esc(q?.answer)}</span>${q?.edited?.length?'<span class="chip pri">edited</span>':''}</div><details style="margin-top:8px"><summary>Stored solution</summary><div class="qbox">${q?.solution||''}</div></details></div>`;
+g.items.forEach(r=>{const st=status(r),rp=S.R.find(x=>x.id===r.reportId),pe=proposed(r),d=S.decisions[r.reportId];
+h+=`<div class="card"><div class="row"><b>${r.reportId}</b><span class="chip ${r.route==='faculty_review'?'warn':r.route==='auto_apply'?'pri':''}">${esc(r.route)}</span>${r.verdict?`<span class="chip">${esc(r.verdict)}</span>`:''}${r.confidence!=null?`<span class="chip">conf ${esc(r.confidence)}</span>`:''}<span class="sp"></span>${d?`<span class="chip ${d.action==='rejected'?'bad':'ok'}">${d.action}</span>`:st==='auto'?'<span class="chip ai">⚡ Auto-edited</span>':st==='nochange'?'<span class="chip ai">🤖 AI-closed · no change</span>':''}</div>
+<div class="stu">🎓 <i>${esc(rp?.text||'(report text unavailable)')}</i></div>
+<b>AI conclusion</b><div>${esc(r.faculty_brief||(r.route==='no_change'?'No defect found — the stored key matches the AI\'s independent solve.':r.route==='auto_apply'?'Low-risk repair eligible for auto-apply.':'—'))}</div>
+<div class="ev"><div>Stored key: <b>${esc(q?.answer)}</b> · AI independent answer: <b>${esc(r.independent_answer??'—')}</b> · Solution says: <b>${esc(r.solution_final??'—')}</b></div>${r.solution_quote?`<div class="mut" style="font-family:ui-monospace,monospace;font-size:12px;margin-top:4px">“${esc(r.solution_quote.replace(/[⟦⟧]/g,''))}”</div>`:''}</div>
+${(r.guard_log||[]).map(l=>`<div class="warnbox">⚠ ${esc(l)}</div>`).join('')}
+<b>Proposed change</b>${pe?`<div class="diff"><div class="o"><small>${esc(pe.field)} · current</small>${esc(q?.[pe.field]??'')}</div><div class="n"><small>proposed</small>${esc(pe.to)}</div></div>`:`<div class="mut">${r.route==='faculty_review'?'No structured edit proposed — use Edit to set one.':'None.'}</div>`}
+<label>Reply to student (editable)</label><textarea rows="2" placeholder="Leave blank to send the standard message" onchange="setReply('${r.reportId}',this.value)">${esc(d?d.reply:st==='pending'?(S.replies[r.reportId]??''):(S.replies[r.reportId]??defReply(r)))}</textarea>${st==='pending'?`<div class="note"><b>If left blank —</b> Approve sends: “${esc(defReply(r,'approved'))}” · Reject sends: “${esc(defReply(r,'rejected'))}”</div>`:''}
+${st==='pending'?`<div class="row" style="margin-top:10px"><button class="g" ${pe?'':'disabled'} onclick="act('${r.reportId}','approved')">✓ Approve</button><button onclick="editProp('${r.reportId}')">✏️ Edit</button><button class="r" onclick="act('${r.reportId}','rejected')">✕ Reject</button><span class="note">Faculty approval required — taxonomy auto:false or guard not satisfied.</span></div>`:(d?`<div class="note">Decided by ${esc(d.by)} on ${new Date(d.ts).toLocaleString()}</div>`:`<div class="warnbox" style="display:flex;gap:10px;align-items:center;margin-top:10px"><span>${st==='auto'?'⚡ Auto-edited by AI (taxonomy auto:true) — applied after backend validation and logged.':'🤖 Closed by AI with no change.'} Not right?</span><span class="sp"></span><button onclick="reopen('${r.reportId}')">✏️ Change</button></div>`)}</div>`});
+return h+'</div></div>'}
+function act(rid,action,pe){const r=S.RES.find(x=>x.reportId===rid)||S.R.find(x=>x.id===rid);pe??=proposed(r);const rej=action==='rejected';
+const reply=(S.replies[rid]||'').trim()||defReply(r,action);delete S.replies[rid];
+run(()=>api('POST','/api/review',{reportId:rid,action,field:rej?null:pe?.field,to:rej?null:pe?.to,reply}),rej?'Rejected — logged':'Approved — question updated')}
+function editProp(rid){const r=S.RES.find(x=>x.reportId===rid)||S.R.find(x=>x.id===rid),qid=r.questionId||r.qid,q=eff(qid),pe=proposed(r)||{field:'answer',to:''};
+modal(`<h3>Edit proposed correction</h3><label>Field to change</label><select id="ef" onchange="$('#ev').value=eff('${qid}')[this.value]">${['answer','solution','html'].map(f=>`<option ${f===pe.field?'selected':''}>${f}</option>`).join('')}</select><label>New value</label><textarea id="ev" rows="6">${esc(pe.to)}</textarea><div class="row" style="margin-top:12px"><button class="g" onclick="const f=$('#ef').value,v=$('#ev').value;closeM();act('${rid}','edited',{field:f,to:v})">Save &amp; approve</button><button onclick="closeM()">Cancel</button></div><div class="note">Only one surgical field is changed; before/after is written to the audit log.</div>`)}
+/* ===== questions (teacher + student) ===== */
+function qTeacher(){return`<h2>Question bank <span class="chip">${S.Q.length}</span></h2>`+S.Q.map(b=>{const q=eff(b.id);return`<div class="card"><div class="row"><b>…${q.id.slice(-6)}</b><span class="chip">${esc(q.type)}</span>${q.edited.length?'<span class="chip pri">edited</span>':''}${S.RES.some(r=>r.questionId===q.id)?`<span class="chip warn">${S.RES.filter(r=>r.questionId===q.id).length} report(s)</span>`:''}<span class="sp"></span><button onclick="editQ('${q.id}')">✏️ Edit</button></div>${qHTML(q)}<div style="margin-top:8px"><b>Correct answer:</b> <span class="chip ok">${esc(q.answer)}</span></div><details open><summary><b>Solution</b></summary><div class="qbox">${q.solution}</div></details></div>`}).join('')}
+function editQ(id){const q=eff(id);modal(`<h3>Edit question …${id.slice(-6)}</h3><label>Question (HTML / MathML, options included)</label><textarea id="e1" rows="8">${esc(q.html)}</textarea><label>Correct answer</label><input id="e2" value="${esc(q.answer)}"><label>Solution (HTML)</label><textarea id="e3" rows="5">${esc(q.solution)}</textarea><div class="row" style="margin-top:12px"><button class="p" onclick="saveQ('${id}')">Save</button><button onclick="closeM()">Cancel</button></div>`)}
+function saveQ(id){const q=eff(id),n={html:$('#e1').value,answer:$('#e2').value,solution:$('#e3').value},o={};for(const k in n)if(n[k]!==q[k])o[k]=n[k];closeM();if(!Object.keys(o).length)return;run(()=>api('POST','/api/questions/'+id,o),'Question saved')}
+function qStudent(){return`<h2>Practice test <span class="chip">${S.Q.length} questions</span></h2>`+S.Q.map((b,i)=>{const q=eff(b.id),a=S.attempt[q.id];const letters=['A','B','C','D'];
+const inp=q.type==='integerQuestion'?`<input type="number" placeholder="Enter your numerical answer" value="${esc(a||'')}" oninput="S.attempt['${q.id}']=this.value" style="max-width:260px">`:letters.map(l=>`<span class="opt ${(q.type==='mcq'?(a||[]).includes(l):a===l)?'on':''}" onclick="pick('${q.id}','${l}','${q.type}')">${l}</span>`).join('');
+return`<div class="card"><div class="row"><b>Q${i+1}</b><span class="chip">${q.type==='mcq'?'Multiple correct':q.type==='scq'?'Single correct':'Integer'}</span><span class="sp"></span><button class="r" onclick="reportQ('${q.id}')">🚩 Report error</button></div>${qHTML(q)}<div style="margin-top:12px"><label>Your answer</label>${inp}</div></div>`}).join('')}
+function pick(id,l,t){if(t==='mcq'){const a=S.attempt[id]||[];S.attempt[id]=a.includes(l)?a.filter(x=>x!==l):[...a,l]}else S.attempt[id]=l;render(1)}
+function reportQ(id){modal(`<h3>Report an error in this question</h3><div class="mut">Tell us what looks wrong (Hindi / Hinglish is fine).</div><textarea id="rt" rows="4" placeholder="e.g. option D missing, answer galat hai…"></textarea><div class="row" style="margin-top:12px"><button class="p" onclick="sendR('${id}')">Submit report</button><button onclick="closeM()">Cancel</button></div>`)}
+function sendR(id){const t=$('#rt').value.trim();if(!t)return;closeM();run(()=>api('POST','/api/reports',{questionId:id,comment:t}),"Report submitted — we'll reply here")}
+/* ===== student reports ===== */
+function repStudent(){const all=[...S.R.map(r=>({...r,res:S.RES.find(x=>x.reportId===r.id)}))].reverse();
+return`<h2>My reports <span class="chip">${all.length}</span></h2>`+(all.map(r=>{const res=r.res,d=S.decisions[r.id],st=d?.action||(res?status(res):'pending'),done=['approved','edited','rejected','auto','nochange'].includes(st);const q=eff(r.qid);
+const msg=d?.reply||(res?sentReply(res,r.id):(st==='rejected'?NOMSG:OKMSG));
+const badgeClass=done?(st==='rejected'?'bad':'ok'):'warn';
+const badgeText=d?(d.action==='rejected'?'Resolved · Correct as given':'Resolved · Corrected'):(st==='auto'?'Resolved · Auto-fixed':st==='nochange'?'Resolved · Correct as given':'Under review');
+return`<div class="card"><div class="row"><b>${esc(r.id)}</b><span class="chip">Q …${esc(r.qid.slice(-6))}</span><span class="sp"></span><span class="chip ${badgeClass}">${badgeText}</span></div><div class="stu">You wrote: <i>${esc(r.text)}</i></div>${done?`<div class="ev"><b>Response from Acadza</b><div style="margin-top:4px">${esc(msg)}</div></div>`:'<div class="mut">Our faculty is reviewing this question. You\'ll see the response here.</div>'}<details style="margin-top:8px"><summary>View question</summary>${q?qHTML(q):'<div class="mut">Question not found</div>'}</details></div>`}).join('')||'<div class="mut">You haven\'t reported anything yet.</div>')}
+/* ===== render ===== */
+function render(keep){chrome();const m=$('#main'),y=m.scrollTop,fo=document.activeElement;const id=fo?.tagName==='INPUT'&&fo.placeholder?.startsWith('Search')?1:0;
+m.innerHTML=(S.role==='teacher'?(S.view==='reports'?repTeacher():qTeacher()):(S.view==='reports'?repStudent():qStudent()))+'<div class="note">Live data from FastAPI · /api/questions, /api/reports, /api/results, /api/state</div>';
+if(keep)m.scrollTop=y;if(id){const i=m.querySelector('input[placeholder^=Search]');i.focus();i.setSelectionRange(99,99)}}
+(async()=>{chrome();try{await refresh();render()}catch(e){$('#main').innerHTML='<div class="card"><h3>Backend not reachable</h3><p>'+esc(e.message)+'</p><p>Start it from the project root with <code>uvicorn server:app --reload</code> and open <code>http://127.0.0.1:8000</code>.</p></div>'}})();
+</script></body></html>

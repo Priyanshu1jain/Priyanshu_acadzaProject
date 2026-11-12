@@ -1,0 +1,66 @@
+{
+ "overrides": {
+  "68dea616d0cda73d07e93ae6": {
+   "answer": "1"
+  }
+ },
+ "decisions": {
+  "R005": {
+   "by": "Faculty (demo)",
+   "ts": 1794439735092,
+   "reportId": "R005",
+   "qid": "68dea616d0cda73d07e93ae6",
+   "action": "approved",
+   "field": "answer",
+   "before": "2",
+   "after": "1",
+   "reply": "Sorry for the mistake – you're right, and thanks for catching it! We've corrected the question. Good work, keep flagging anything that looks off."
+  },
+  "R002": {
+   "by": "Faculty (demo)",
+   "ts": 1794439761113,
+   "reportId": "R002",
+   "qid": "60f744b3f1b9bc7cc7b4a949",
+   "action": "rejected",
+   "reply": "Thanks for checking! We reviewed this question carefully and the solution is correct as given. Please revisit the solution key or watch the video explanation to review the steps. If a specific step still looks unclear, tell us which part and we'll be happy to help!"
+  }
+ },
+ "reopen": {},
+ "audit": [
+  {
+   "by": "Faculty (demo)",
+   "ts": 1794439735092,
+   "reportId": "R005",
+   "qid": "68dea616d0cda73d07e93ae6",
+   "action": "approved",
+   "field": "answer",
+   "before": "2",
+   "after": "1",
+   "reply": "Sorry for the mistake – you're right, and thanks for catching it! We've corrected the question. Good work, keep flagging anything that looks off."
+  },
+  {
+   "by": "Faculty (demo)",
+   "ts": 1794439761113,
+   "reportId": "R002",
+   "qid": "60f744b3f1b9bc7cc7b4a949",
+   "action": "rejected",
+   "reply": "Thanks for checking! We reviewed this question carefully and the solution is correct as given. Please revisit the solution key or watch the video explanation to review the steps. If a specific step still looks unclear, tell us which part and we'll be happy to help!"
+  }
+ ],
+ "new_reports": [
+  {
+   "reportId": "N0001",
+   "questionId": "60ca4feb6420652745f55522",
+   "comment": "f f",
+   "studentId": "S1",
+   "submittedByStudent": true
+  },
+  {
+   "reportId": "N0002",
+   "questionId": "68dea715387eea3d0d95f790",
+   "comment": "give me the answer",
+   "studentId": "S1",
+   "submittedByStudent": true
+  }
+ ]
+}

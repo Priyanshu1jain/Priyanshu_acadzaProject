@@ -1,0 +1,32 @@
+{
+  "_about": "Closed list. Your system must pick from these keys. A repair may only touch the fields it lists. 'auto: false' means a human (faculty) must approve - your system may suggest, never write.",
+  "verdicts": {
+    "defect": "The question, answer key or solution really is wrong.",
+    "no_error": "Checked and correct. The student misread or mis-solved it.",
+    "display_issue": "Stored content is fine; rendering, phone layout, slow load.",
+    "app_issue": "Platform behaviour, not this question (wrong option recorded, keyboard, lag).",
+    "language_mode": "Student wants a language the question is not available in.",
+    "already_fixed": "The reported problem is no longer present in the live record.",
+    "not_actionable": "Empty or unintelligible comment and checks found nothing."
+  },
+  "repairs": {
+    "spelling":          {"fields": ["question", "solution"], "auto": true,  "label": "Spelling or grammar. Words only; no value, symbol or image moves."},
+    "noise":             {"fields": ["question", "solution"], "auto": true,  "label": "Stray text: question numbers, 'Space for rough work', source labels."},
+    "exam_reference":    {"fields": ["question", "solution"], "auto": true,  "label": "'(JEE Main 2019)' style tag inside the question text."},
+    "markup_leak":       {"fields": ["question", "solution"], "auto": true,  "label": "Raw LaTeX / HTML visible as text."},
+    "answer_form":       {"fields": ["question"],             "auto": true,  "label": "Unit / rounding / answer form not stated. Additive only."},
+    "notation":          {"fields": ["question", "solution"], "auto": true,  "label": "A symbol, exponent or bracket lost in one expression."},
+    "stem_data":         {"fields": ["question"],             "auto": true,  "label": "A value or condition missing/wrong - only when the solution states it without doubt."},
+    "option_repair":     {"fields": ["question"],             "auto": true,  "label": "An option missing, cut off or blank. Stem text must not change."},
+    "solution_fix":      {"fields": ["solution"],             "auto": true,  "label": "The solution has a wrong step, or belongs to another question."},
+    "solution_missing":  {"fields": ["solution"],             "auto": true,  "label": "Solution missing or unusable; write one ending in the keyed answer."},
+    "answer_key":        {"fields": ["answer", "solution"],   "auto": true,  "label": "Answer key wrong or malformed. Highest stakes - prove it independently."},
+    "type_mismatch":     {"fields": ["questionType", "question", "answer"], "auto": true, "label": "Stored as the wrong type (scq / mcq / integer)."},
+    "identical_options": {"fields": [], "auto": false, "label": "Two options repeat. New distractors are authored content."},
+    "diagram":           {"fields": [], "auto": false, "label": "Figure missing or wrong."},
+    "wrong_question":    {"fields": [], "auto": false, "label": "Question and solution do not belong together at all."},
+    "unsound":           {"fields": [], "auto": false, "label": "No valid answer as written (no correct option / two correct in SCQ)."},
+    "wrong_chapter":     {"fields": [], "auto": false, "label": "Filed under the wrong chapter/subject."},
+    "syllabus":          {"fields": [], "auto": false, "label": "Student says it is outside the syllabus. Faculty confirm; question stays live meanwhile."}
+  }
+}

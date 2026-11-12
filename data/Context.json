@@ -1,0 +1,103 @@
+================================================================================
+PURPOSE OF THIS FILE
+================================================================================
+This file is the shared, persistent context anchor for this project. Because multiple AI models, agents, and sessions will work on this codebase, this document maintains continuity and consistency across all of them. Every decision, folder change, and architectural shift must be recorded here so any agent or human can immediately understand where the project stands and what rules to follow.
+
+================================================================================
+PROJECT OVERVIEW & PROBLEM STATEMENT
+================================================================================
+Acadza serves ~8 lakh JEE/NEET questions to students. Content errors occasionally occur (wrong answer key, missing value or diagram, blank option, mismatched solution). Students submit free-text error reports ("ans galat hai", "data missing", "mu should be 0.4").
+
+Most reports are student misconceptions, but real defects harm students until resolved. Our goal is to build an intelligent AI triage and verification layer that sits between student reports and database fixes.
+
+Full Project Scope:
+1. Triage Engine: Multi-stage pipeline to determine verdict, repair category, surgical edit, confidence score, evidence, empathetic student reply, and routing (auto_apply vs faculty_review).
+2. Faculty Review Console: Web UI for faculty to inspect questions with rendered MathML, review proposed before/after diffs, approve/edit/reject changes, and preview student replies.
+3. Deliverables: results.json / result.json (benchmarked against ground truth), PROMPTS.md / prompts_dump.txt (complete prompt logs and design decisions), and products.md / PRODUCT.md (product strategy, guardrails, metrics, and beyond-the-brief roadmap).
+
+================================================================================
+MILESTONE STATUS & DELIVERABLES
+================================================================================
+[COMPLETED] Milestone 1: Student Report Intent Classification (classifier.py)
+- Goal: Classify all 44 student reports purely on reported student intent into taxonomy repair categories without solving questions or proposing edits yet.
+- Outcome: 100% of reports (44/44) classified successfully using Groq (openai/gpt-oss-120b).
+- Generated Outputs:
+  * classified_reports.json: Preserves original report fields plus predicted repair/verdict.
+  * classification_debug.json: Diagnostic log with reasoning and confidence scores.
+- Key Result: Balanced distribution across categories (answer_key, stem_data, spelling, option_repair, solution_fix, etc.) and adversarial trap report R027 successfully intercepted and flagged as not_actionable (confidence 0.99).
+
+[COMPLETED] Milestone 2: Automated Investigation & Verification Layer (investigator.py)
+- Goal: Deep automated triage verifying defects, solving questions independently, producing surgical edits, drafting student replies, and evaluating safety guards.
+- Core Architecture (6 Stages):
+  * Stage A (Blind Solving): Independent solves per question without seeing stored keys or solutions to evaluate consensus, missing figures, and problem soundness.
+  * Stage B (Content Audit): Static scans (malformed keys, LaTeX/markup leaks, option anomalies) + LLM content auditing to proactively detect un-reported defects (proactive_findings.json).
+  * Stage C (Report Investigation): Evaluates student reports using question payload, blind solves, static facts, edit history, and sibling reports. Student comments are treated strictly as leads, with pre-prompt regex filtering for adversarial injections.
+  * Stage D (Deterministic Guardrails): Evaluates repair scope, exact-match verbatim 'find' in raw HTML, character size limits, grounded quotes from solutions, digit preservation, and solver consensus. Includes automatic 1-retry refinement for non-verbatim edits.
+  * Stage E (Deterministic Routing): LLM never decides routes. 'auto_apply' is granted only if all guards pass and confidence meets strict thresholds; guards can only downgrade to 'faculty_review' or 'no_change'. Conflicts between sibling reports automatically escalate to faculty review.
+  * Stage F (Student Replies): Empathetic 1-3 sentence replies matching student language style (English/Hinglish), grounded in factual findings, with warm guidance to revisit the solution key or video explanation when student is mistaken.
+- Generated Outputs:
+  * results.json / result.json: Strict assignment schema scored against benchmark ground truth.
+  * investigation.json: Full audit trail with guard details, downgrade reasons, faculty briefs, and blind solves.
+
+[COMPLETED] Milestone 3: Full-Stack Faculty Review Console & Web UI (server.py + frontend/)
+- Goal: Elegant web interface (FastAPI backend + HTML/CSS/JS frontend) rendering MathML natively, displaying queue grouped by question, before/after diffs, and faculty approve/reject controls.
+- Architecture:
+  * Backend (server.py): FastAPI application serving REST endpoints and mounting static frontend files.
+  * Frontend (frontend/index.html & index.html): Interactive web console supporting MathML rendering, before/after diff views, faculty decision workflows (approve, edit, reject, reopen), student report submissions, and student view previews.
+  * Persistence: Read-only access to base data (data/questions.json, data/reports.json). All faculty actions, overrides, audit logs, and new reports persist in store/review_state.json.
+
+[COMPLETED] Product & System Deliverables:
+- products.md: Executive product essay detailing impact analysis, automation boundaries, week-one monitoring metrics (verified auto-fix precision), and the Question Health & Recurrence Tracker concept.
+- prompts_dump.txt: Complete prompt dump and LLM conversation traces across blind solving, content auditing, and multi-report investigation.
+
+================================================================================
+DATA & ARTIFACT FILES SUMMARY
+================================================================================
+- data/questions.json (43 questions): Real production format with HTML and inline MathML, embedded options, and type-specific blocks (scq, mcq, integerQuestion).
+- data/reports.json (44 reports): Student submissions containing reportId, questionId, studentId, source, reportedAt, and free-text comments.
+- data/taxonomy.json: Predefined taxonomy with 7 verdicts and 18 repair categories (12 auto-applicable, 6 human-approval required).
+- classifier.py: Intent-based classifier script with live disk streaming and adaptive rate-limiting.
+- investigator.py: Full 6-stage investigation engine (blind solves, auditing, report investigation, deterministic guards, routing, and empathetic student replies).
+- server.py: FastAPI backend for faculty review console and student interface.
+- frontend/index.html & index.html: Single-page review UI with MathML rendering and interactive workflow controls.
+- store/review_state.json: Dynamic storage for faculty decisions, question overrides, audit entries, and student reports.
+- results.json / result.json: Output containing investigated reports, verdicts, repairs, edits, routes, and student replies.
+- products.md: Product strategy and governance documentation.
+- prompts_dump.txt: Full prompt templates and output traces.
+- requirements.txt: Python dependency manifest (google-genai, python-dotenv, groq, fastapi, uvicorn).
+- cache/: Persistent disk cache (solves and audits) to minimize token consumption and speed up repeated runs.
+
+================================================================================
+TECH STACK
+================================================================================
+- Backend: Python 3.12, FastAPI, Uvicorn
+- Frontend: HTML5, CSS3, JavaScript (Native browser MathML rendering, no third-party bundle bloat)
+- LLM: Groq (openai/gpt-oss-120b) with adaptive TPM backoff, reasoning effort settings, and JSON mode
+- Storage: File-based JSON architecture with transactional replacement (atomic file writes) and thread-safe locking
+
+================================================================================
+DECISIONS & CHANGE LOG
+================================================================================
+- Architecture: Decoupled intent classification (Milestone 1) from question verification and edit generation (Milestone 2) to maintain simplicity and high accuracy.
+- Context Discipline: Maintained this human- and agent-readable context file as the living record; must be updated whenever files change or decisions are made without timestamps in log entries.
+- Strict Taxonomy Guard: All LLM outputs must be validated against taxonomy.json to prevent hallucinated repair types.
+- Milestone 1 Setup: Inspected README.md, questions.json, reports.json, and taxonomy.json; established baseline scope and rules.
+- Data Directory Reorganization: Organized core data inputs (questions.json, reports.json, taxonomy.json, Context.json) inside data/ directory.
+- Resilient File Resolution: Implemented load_data_file in classifier.py allowing transparent loading of data files whether located in data/ or root.
+- Provider Switch to Groq: Transitioned from Gemini Flash to Groq (openai/gpt-oss-120b) to bypass restrictive quotas. Installed groq SDK, updated requirements.txt, and refactored classifier.py with AsyncGroq and JSON mode.
+- Adaptive Rate-Limit Backoff: Implemented dynamic retry backoff in classifier.py parsing Groq's TPM rate limit wait times and paced concurrency with semaphore=2 to ensure reliable, zero-drop completion across all 44 reports.
+- Live File Streaming: Updated classifier.py with an asyncio file lock to update classified_reports.json and classification_debug.json in real-time as each individual report finishes, providing immediate live feedback while preserving input ordering.
+- Fallback Normalization: Replaced the temporary 'no_class' fallback with the official taxonomy verdict 'not_actionable'. Any unmatchable, empty, or adversarial prompt-injection comments (e.g. R027) now strictly resolve to 'not_actionable', guaranteeing 100% adherence to taxonomy.json without custom labels.
+- Added investigator.py (Milestone 2): Integrated comprehensive 6-stage triage pipeline featuring double blind solving, static regex scans, proactive auditing, deterministic guardrails, and empathetic student replies.
+- Route Safety Policy: Enforced deterministic routing where LLM cannot dictate 'auto_apply'; routes are computed strictly by safety guards and confidence thresholds, with guards only permitted to downgrade. Conflicting edits on identical questions automatically escalate to faculty review.
+- Proactive Defect Discovery: Implemented automated audits finding real defects unprompted by student reports, routed strictly to 'faculty_review' in proactive_findings.json.
+- Injection Defense Layer: Added pre-prompt regex guard (INJECTION_RE) intercepting prompt injection / jailbreak attempts prior to LLM reasoning, ensuring adversarial inputs default to not_actionable and safe refusal responses.
+- Investigator Optimization for Batch Testing: Redesigned investigator.py to evaluate all reports on a question together (1 LLM call per question group), configured default batch limit (--limit 5) for quick initial verification, and capped concurrency at 2 to stay strictly within Groq's 8,000 TPM limit.
+- Groq Route Hardening & Windows Compatibility: Reinforced Groq AsyncGroq caller with conditional reasoning_effort, dynamic rate-limit cooldown tracking (COOL until), loop-safe semaphore initialization, and resilient write_json handling to avoid Windows file locks.
+- Milestone 3 Console Integration: Added server.py and frontend/index.html to implement the full-stack faculty review console.
+- Read-Only Separation & Overlay Architecture: Configured server.py to preserve data/questions.json and data/reports.json as immutable base records, persisting all faculty edits, decisions, audit logs, and student submissions into store/review_state.json.
+- Environment & Server Verification: Installed and added fastapi and uvicorn to requirements.txt; verified that all endpoints (/api/questions, /api/reports, /api/results, /api/state) and frontend static serving load and function without errors.
+- Question Schema Normalization Fix: Updated norm_q in server.py to inspect nested sub-dictionaries corresponding to each questionType (scq, mcq, integerQuestion). Previously, question, answer, and solution were retrieved only at top-level, resulting in empty HTML, solutions, and answers. All 43 questions now route with complete MathML stems, answer keys, and solutions.
+- Student View Reply Synchronization Fix: Fixed student report view (repStudent) in frontend/index.html and server.py. Associated demo student ID S1 across reports so they appear under "My reports" without login. Fixed state resolution to directly read faculty actions from S.decisions[r.id] and display the exact faculty reply (msg) with status badges (Resolved · Corrected, Resolved · Correct as given, Under review). Added fallback handling in find_result so faculty decisions can be made and displayed on any report.
+- Investigation-Only Report Routing: Reconfigured /api/reports in server.py and frontend/index.html to source reports exclusively from ROOT / "investigation.json" (falling back to result.json / results.json). Student comments and metadata are matched from reports.json by reportId. The review queue, statistics, and student views now strictly mirror the investigated reports file in real time.
+- Pedagogical Student Reply Refinement: Updated standard rejection / no-error replies across server.py, frontend/index.html, store/review_state.json, and investigator.py. When a student report is found incorrect (no defect), the reply warmly affirms that the solution is correct and directs the student to revisit the solution key or watch the video explanation to review the method, offering help on specific steps.

@@ -1,0 +1,354 @@
+[
+  {
+    "reportId": "R005",
+    "questionId": "68dea616d0cda73d07e93ae6",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student reports the stored answer key is incorrect",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R029",
+    "questionId": "68e8734442c06737d6e56da4",
+    "category": "stem_data",
+    "category_type": "repair",
+    "reason": "Student reports the value of mu in the question is incorrect and should be 0.4",
+    "confidence": 0.93
+  },
+  {
+    "reportId": "R012",
+    "questionId": "61dffbec08489156b684bd22",
+    "category": "spelling",
+    "category_type": "repair",
+    "reason": "Student reports a spelling mistake in option A of the question",
+    "confidence": 0.99
+  },
+  {
+    "reportId": "R002",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student reports the answer key is incorrect",
+    "confidence": 0.85
+  },
+  {
+    "reportId": "R004",
+    "questionId": "68e870ef42c06737d6e565c4",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student claims the stored answer key is incorrect and should be 8225",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R008",
+    "questionId": "60f742f6660d187cc13a8078",
+    "category": "stem_data",
+    "category_type": "repair",
+    "reason": "Student reports that some data/value is missing from the question",
+    "confidence": 0.7
+  },
+  {
+    "reportId": "R034",
+    "questionId": "695ee00b88d7701e561aabc5",
+    "category": "not_actionable",
+    "category_type": "verdict",
+    "reason": "The comment is vague and does not request any specific change to the stored content",
+    "confidence": 0.93
+  },
+  {
+    "reportId": "R010",
+    "questionId": "622f08d7b70e4b50e4500a1b",
+    "category": "option_repair",
+    "category_type": "repair",
+    "reason": "Student reports that only three answer options are displayed, indicating a missing option",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R017",
+    "questionId": "6208e80a9cb2ab67dac61bd0",
+    "category": "spelling",
+    "category_type": "repair",
+    "reason": "Student reports a spelling mistake in an option text",
+    "confidence": 0.99
+  },
+  {
+    "reportId": "R032",
+    "questionId": "68dea7c2387eea3d0d95f9bb",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student says the answer key shows 8 but they think it should be 0.08, indicating a request to correct the answer key.",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R026",
+    "questionId": "620e23cecc50543bc7db9186",
+    "category": "syllabus",
+    "category_type": "repair",
+    "reason": "Student claims the question is outside the NEET syllabus",
+    "confidence": 0.96
+  },
+  {
+    "reportId": "R042",
+    "questionId": "63c7cce12981ed154ee92c94",
+    "category": "wrong_chapter",
+    "category_type": "repair",
+    "reason": "Student reports the question is filed under an incorrect chapter",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R023",
+    "questionId": "68ecbacb2ec87a18deba1ad7",
+    "category": "wrong_chapter",
+    "category_type": "repair",
+    "reason": "Student says the question is placed under the wrong chapter (living world) and should be under neural control",
+    "confidence": 0.96
+  },
+  {
+    "reportId": "R007",
+    "questionId": "60f742f6660d187cc13a8078",
+    "category": "stem_data",
+    "category_type": "repair",
+    "reason": "Student reports that the inductance value is missing from the question stem",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R003",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student claims the answer key (130) is wrong based on sqrt(40^2+30^2)=50",
+    "confidence": 0.96
+  },
+  {
+    "reportId": "R038",
+    "questionId": "68f21df0941cda588bc0470b",
+    "category": "app_issue",
+    "category_type": "verdict",
+    "reason": "User reports that the selected option was not recorded correctly, indicating a platform behavior problem",
+    "confidence": 0.96
+  },
+  {
+    "reportId": "R014",
+    "questionId": "63765a28f1d8416ae0408d89",
+    "category": "markup_leak",
+    "category_type": "repair",
+    "reason": "Student reports raw LaTeX code (\\frac) appearing in the question text",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R040",
+    "questionId": "6264197209f4fd65f58f5707",
+    "category": "not_actionable",
+    "category_type": "verdict",
+    "reason": "Comment is too vague to identify a specific repair request",
+    "confidence": 0.92
+  },
+  {
+    "reportId": "R044",
+    "questionId": "68dea577d0cda73d07e9391c",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student reports the stored answer key is incorrect, requesting correction",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R028",
+    "questionId": "6956d7bb23cb221e570d6013",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student claims the stored answer key is incorrect and should be tan inverse 2",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R022",
+    "questionId": "61ee6c9d90a1a968a168686b",
+    "category": "spelling",
+    "category_type": "repair",
+    "reason": "Student reports the word 'plexus' is misspelled and wants it corrected",
+    "confidence": 0.99
+  },
+  {
+    "reportId": "R015",
+    "questionId": "6956d79788d7701e5617bc29",
+    "category": "identical_options",
+    "category_type": "repair",
+    "reason": "Student reports that options B and C are identical",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R016",
+    "questionId": "6263d75bdd44e265ef926d97",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student reports conflict between solution value and answer key and asks which is correct",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R018",
+    "questionId": "612151a6a34397610a9a2e58",
+    "category": "solution_fix",
+    "category_type": "repair",
+    "reason": "Student reports that the stored solution belongs to a different question",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R039",
+    "questionId": "68c801bc1b1dbc16dc93bf2b",
+    "category": "language_mode",
+    "category_type": "verdict",
+    "reason": "Student requests the question in Hindi, which is a language request, not a content change.",
+    "confidence": 0.99
+  },
+  {
+    "reportId": "R009",
+    "questionId": "622f08d7b70e4b50e4500a1b",
+    "category": "option_repair",
+    "category_type": "repair",
+    "reason": "Student reports that option D is missing from the question",
+    "confidence": 0.99
+  },
+  {
+    "reportId": "R013",
+    "questionId": "617fa18efd53ff1629ed890f",
+    "category": "exam_reference",
+    "category_type": "repair",
+    "reason": "Student asks why the NEET 2019 reference appears in the question, indicating they want it removed/changed",
+    "confidence": 0.96
+  },
+  {
+    "reportId": "R030",
+    "questionId": "6956d7e988d7701e5617bd3e",
+    "category": "stem_data",
+    "category_type": "repair",
+    "reason": "Student reports the amplitude value in the question is incorrect and should be 4√2",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R001",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student reports that the stored answer key (option C) is incorrect and should be 50V",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R036",
+    "questionId": "60ca4feb6420652745f55522",
+    "category": "display_issue",
+    "category_type": "verdict",
+    "reason": "Student reports options being cut off on phone screen, indicating a rendering problem",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R021",
+    "questionId": "68f21caf941cda588bc04365",
+    "category": "type_mismatch",
+    "category_type": "repair",
+    "reason": "Student reports the question is marked as a multiple‑correct type but only one option (B) is correct, indicating a type mismatch.",
+    "confidence": 0.93
+  },
+  {
+    "reportId": "R011",
+    "questionId": "68e872546e45ba37dcc16bc0",
+    "category": "option_repair",
+    "category_type": "repair",
+    "reason": "Student reports that option C is blank/missing and asks what to mark",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R041",
+    "questionId": "6208e298fa399567e0878700",
+    "category": "not_actionable",
+    "category_type": "verdict",
+    "reason": "The comment is gibberish and provides no actionable request",
+    "confidence": 0.98
+  },
+  {
+    "reportId": "R043",
+    "questionId": "636283dbe3770c24f866e6d6",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student claims the stored answer key is incorrect and suggests a different answer",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R027",
+    "questionId": "6062ec84518e9535e120c422",
+    "category": "not_actionable",
+    "category_type": "verdict",
+    "reason": "Student is issuing instructions to change the answer key, which is not actionable per policy",
+    "confidence": 0.99
+  },
+  {
+    "reportId": "R006",
+    "questionId": "696a866665252c04fc1f81c2",
+    "category": "stem_data",
+    "category_type": "repair",
+    "reason": "Student reports that the cube's edge length is missing, a required value in the question stem.",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R019",
+    "questionId": "612151a6a34397610a9a2e58",
+    "category": "solution_fix",
+    "category_type": "repair",
+    "reason": "Student reports the solution provides an incorrect value (5.47 Å) that doesn't answer the asked question",
+    "confidence": 0.96
+  },
+  {
+    "reportId": "R035",
+    "questionId": "66fe9dbe22132e5a70a3e579",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student claims the stored answer key is incorrect",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R025",
+    "questionId": "622df25ab70e4b50e44ff837",
+    "category": "diagram",
+    "category_type": "repair",
+    "reason": "Student reports that the figure is missing from the question",
+    "confidence": 0.99
+  },
+  {
+    "reportId": "R037",
+    "questionId": "68c9ae5afb6b2f16e2d43b1c",
+    "category": "display_issue",
+    "category_type": "verdict",
+    "reason": "Student reports the question loads very slowly",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R020",
+    "questionId": "68c8153cfb6b2f16e2d3ceaf",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student claims their selected options A B D are marked wrong, indicating the answer key may be incorrect",
+    "confidence": 0.9
+  },
+  {
+    "reportId": "R033",
+    "questionId": "68dea715387eea3d0d95f790",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student claims the stored answer key is incorrect and requests correction",
+    "confidence": 0.97
+  },
+  {
+    "reportId": "R031",
+    "questionId": "68dea619d0cda73d07e93aee",
+    "category": "answer_key",
+    "category_type": "repair",
+    "reason": "Student claims the answer should be 2 seconds, indicating the stored answer key is incorrect",
+    "confidence": 0.96
+  },
+  {
+    "reportId": "R024",
+    "questionId": "5fc60508028950133eac8963",
+    "category": "answer_form",
+    "category_type": "repair",
+    "reason": "Student reports that the unit for the answer is missing in the question",
+    "confidence": 0.97
+  }
+]

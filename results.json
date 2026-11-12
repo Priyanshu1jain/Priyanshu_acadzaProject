@@ -1,0 +1,69 @@
+[
+  {
+    "reportId": "R005",
+    "questionId": "68dea616d0cda73d07e93ae6",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+      "field": "answer",
+      "find": "2",
+      "replace": "1"
+    },
+    "route": "faculty_review",
+    "confidence": 0.99,
+    "evidence": "Stored solution gives total flux = q/(2ε0) which matches formula (nq)/(2ε0) with n=1, but key was 2.",
+    "student_reply": "Thanks for flagging this! A teacher has reviewed and updated the key; the question remains live."
+  },
+  {
+    "reportId": "R029",
+    "questionId": "68e8734442c06737d6e56da4",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 1.0,
+    "evidence": "Using F-μmg=ma gives F=10+100μ; doubling force gives 2F-μmg=100 → 20+100μ=100 → μ=0.8, which matches option A.",
+    "student_reply": "Your calculation missed the friction term in the second step. Solving correctly gives μ=0.8, which is option A."
+  },
+  {
+    "reportId": "R012",
+    "questionId": "61dffbec08489156b684bd22",
+    "verdict": "defect",
+    "repair": "spelling",
+    "edit": {
+      "field": "question",
+      "find": "Epithellial tisue",
+      "replace": "Epithelial tissue"
+    },
+    "route": "auto_apply",
+    "confidence": 0.98,
+    "evidence": "Option A contains misspelled words 'Epithellial tisue'.",
+    "student_reply": "The option had a spelling error – it now reads 'Epithelial tissue'. The correct answer remains A."
+  },
+  {
+    "reportId": "R002",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+      "field": "answer",
+      "find": "C",
+      "replace": "A"
+    },
+    "route": "faculty_review",
+    "confidence": 1.0,
+    "evidence": "Stored solution calculates supply voltage as 50 V, which corresponds to option A, not C.",
+    "student_reply": "Thanks for flagging this. A teacher has reviewed the question and updated the answer key accordingly."
+  }
+]
+{
+  "reportId": "R004",
+  "questionId": "68e870ef42c06737d6e565c4",
+  "verdict": "no_error",
+  "repair": null,
+  "edit": null,
+  "route": "no_change",
+  "confidence": 0.99,
+  "evidence": "Using the kinetic theory relation P = (1/3)ρ(v_rms)^2, with density = 9 × 10^-2 kg/m^3 and RMS velocity = 400 m/s, the pressure is (1/3) × 0.09 × 400^2 = 4800 N/m^2. This matches option D and the stored answer key. The student's suggested value of 8225 N/m^2 is incorrect.",
+  "student_reply": "The stored answer is correct. Using P = (1/3)ρ(v_rms)^2 gives 4800 N/m², which is option D. Please recheck the density and RMS velocity values while calculating."
+}

@@ -1,0 +1,874 @@
+[
+ {
+  "_id": "60ca4feb6420652745f55522",
+  "qid": null,
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Electrostatics",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2025-10-23T09:45:50.628Z",
+  "scq": {
+   "question": "<h3><span style=\"color:#000000\">Two point charges repel each other with a force of 100 N. One of the charges is increased by 10% and the other is reduced by 10%. The new force of repulsion at the same distance would be</h3><h3>(A)<span style=\"color:#000000\"> <span style=\"color:#000000\">100 N<br />(B)<span style=\"color:#000000\"> <span style=\"color:#000000\">121 N<span style=\"color:#000000\"><br />(C)<span style=\"color:#000000\"> </span><span style=\"color:#000000\">99 N<br />(D)</span></span></span><span style=\"color:#000000\"> </span></span></span><span style=\"color:#000000\">None of these</span></span></span></h3>",
+   "solution": "<h3><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>100</mn><mo>&#x0003D;</mo><mi>k</mi><msub><mi>q</mi><mrow><mn>1</mn></mrow></msub><msub><mi>q</mi><mrow><mn>2</mn></mrow></msub><mo>&#x0002F;</mo><msup><mi>r</mi><mrow><mn>2</mn></mrow></msup></mrow></mstyle></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>F</mi><mo>&#x0003D;</mo><mi>k</mi><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mn>1.1</mn><msub><mi>q</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mn>0.9</mn><msub><mi>q</mi><mrow><mn>2</mn></mrow></msub><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mo>&#x0002F;</mo><msup><mi>r</mi><mrow><mn>2</mn></mrow></msup></mrow></mstyle></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x021D2;</mo><mfrac><mrow><mi>F</mi></mrow><mrow><mn>100</mn></mrow></mfrac><mo>&#x0003D;</mo><mn>0.99</mn><mo>&#x021D2;</mo><mi>F</mi><mo>&#x0003D;</mo><mn>99</mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">N</mi></mrow></mrow></mstyle></math></h3>",
+   "answer": "C",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68dea616d0cda73d07e93ae6",
+  "qid": "SecBQ22",
+  "questionType": "integerQuestion",
+  "subject": "Physics",
+  "chapter": "Electrostatics",
+  "concept": "Electric flux and Gauss law",
+  "subConcept": "Electric Flux",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2025-10-23T11:36:19.085Z",
+  "integerQuestion": {
+   "question": "<h3>The charges <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mi> q </mi></mrow><mrow><mn> 2 </mn></mrow></mfrac></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn> 2 </mn><mi> q </mi></mrow></math> are placed at the centre of face and corner of a cube respectively. Total flux through the cube is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mi> n </mi><mi> q </mi></mrow><mrow><mn> 2 </mn><msub><mi> ε </mi><mrow><mn> 0 </mn></mrow></msub></mrow></mfrac></mrow></math>. The value of ' <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi> n </mi></mrow></math> ' is</h3>",
+   "solution": "<h3>For centre of face <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi> ϕ </mi><mrow><mn> 1 </mn></mrow></msub><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 2 </mn></mrow></mfrac><mfrac><mrow><mfrac><mrow><mi> q </mi></mrow><mrow><mn> 2 </mn></mrow></mfrac></mrow><mrow><msub><mi> &epsilon; </mi><mrow><mn> 0 </mn></mrow></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mi> q </mi></mrow><mrow><mn> 4 </mn><msub><mi> &epsilon; </mi><mrow><mn> 0 </mn></mrow></msub></mrow></mfrac></mrow></math> For corner of a cube <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi> ϕ </mi><mrow><mn> 2 </mn></mrow></msub><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 8 </mn></mrow></mfrac><mfrac><mrow><mn> 2 </mn><mi> q </mi></mrow><mrow><msub><mi> &epsilon; </mi><mrow><mn> 0 </mn></mrow></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mi> q </mi></mrow><mrow><mn> 4 </mn><msub><mi> &epsilon; </mi><mrow><mn> 0 </mn></mrow></msub></mrow></mfrac></mrow></math> Total flux <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> ϕ </mi><mo>=</mo><mfrac><mrow><mi> q </mi></mrow><mrow><mn> 4 </mn><msub><mi> &epsilon; </mi><mrow><mn> 0 </mn></mrow></msub></mrow></mfrac><mo>+</mo><mfrac><mrow><mi> q </mi></mrow><mrow><mn> 4 </mn><msub><mi> &epsilon; </mi><mrow><mn> 0 </mn></mrow></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mi> q </mi></mrow><mrow><mn> 2 </mn><msub><mi> &epsilon; </mi><mrow><mn> 0 </mn></mrow></msub></mrow></mfrac></mrow></math></h3>",
+   "answer": "2",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68dea715387eea3d0d95f790",
+  "qid": "SecBQ24",
+  "questionType": "integerQuestion",
+  "subject": "Physics",
+  "chapter": "Units and dimensions",
+  "concept": "Dimensional Analysis",
+  "subConcept": "Rules in Dimensional Analysis",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2025-10-23T11:38:43.145Z",
+  "integerQuestion": {
+   "question": "<h3>Each side of a cube is measured to be 7.203 m . If the total surface area of the cube considering the correct significant digits in <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math> is A , then find the value of 10 A .</h3>",
+   "solution": "<h3>Total surface area <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn> 6 </mn><mo stretchy=\"false\">(</mo><mn> 7.203 </mn><msup><mo stretchy=\"false\">)</mo><mrow><mn> 2 </mn></mrow></msup><mo>=</mo><mn> 311.299 </mn><mo>=</mo><mn> 311.3 </mn><mspace width=\"0.278em\"></mspace><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math></h3>",
+   "answer": "3113",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "61ee6c9d90a1a968a168686b",
+  "qid": "j0LtWXE985",
+  "questionType": "scq",
+  "subject": "Zoology",
+  "chapter": "Digestion and Absorption",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2025-11-06T06:07:22.617Z",
+  "scq": {
+   "question": "<h3><span style=\"color:#000000\">Aggregates of lymphoid tissue present in the distal portion of the small intestine are known as</h3><h3>(A)<span style=\"color:#000000\"> <span style=\"color:#000000\">Villi<br />(B)<span style=\"color:#000000\"> <span style=\"color:#000000\">Peyer&rsquo;s patches<br />(C)<span style=\"color:#000000\"> <span style=\"color:#000000\">Rugae<br />(D)</span></span></span><span style=\"color:#000000\"> </span></span></span><span style=\"color:#000000\">Choroid plexux</span></span></span></h3>",
+   "solution": "<h3><span style=\"color:#000000\">In the wall of small intestine, lymphatic tissues are present called Peyer&rsquo;s patches. These are groups of lymph nodules that are most numerous in the ileum. They produce lymphocytes.<br />\r\n<span style=\"color:#000000\">Rugae are prominant folds found in empty stomach. Maceus membrane of small intestine is grown into many finger-like projections known as villi.</span></span>​​​​​​​</h3>",
+   "answer": "B",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68c9ae5afb6b2f16e2d43b1c",
+  "qid": "SecAQ23",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Photoelectric effect and matter waves",
+  "concept": "Photoelectric effects",
+  "subConcept": "Work Function, Threshold frequency and wavelength",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2026-01-30T16:05:44.859Z",
+  "scq": {
+   "question": "<h3>Light of wavelength 4000 <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mover><mrow><mi> A </mi></mrow><mrow><mo>∘</mo></mrow></mover></mrow></math> falls on a metal surface having work function of 2.0 eV. What is the stopping potential?</h3>\n\n<h3><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo stretchy=\"false\">(A)</mo></mrow></math> 3.1 V<br />\n<mspace linebreak=\"newline\"> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo stretchy=\"false\">(B)</mo></mrow></math> 2.0 V<br />\n<mspace linebreak=\"newline\"> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo stretchy=\"false\">(C)</mo></mrow></math> 5.1 V<br />\n<mspace linebreak=\"newline\"> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo stretchy=\"false\">(D)</mo></mrow></math> 1.1 V</mspace></mspace></mspace></h3>\n<mspace linebreak=\"newline\"></mspace>",
+   "solution": "<h3>Energy of incident photon <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi> h </mi><mi> c </mi></mrow><mrow><mi> &lambda; </mi></mrow></mfrac></mrow></math> = <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn> 12400 </mn></mrow><mrow><mi> &lambda; </mi></mrow></mfrac></mrow></math> = <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn> 12400 </mn></mrow><mrow><mn> 4000 </mn></mrow></mfrac></mrow></math> eV = 3.1eV <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi> k </mi><mrow><mi> m </mi><mi> a </mi><mi> x </mi></mrow></msub></mrow></math> = h&nu; - &phi; = 3.1eV - 2.0eV = 1.1eV Hence, stopping potential 1.1 V</h3>\n",
+   "answer": "D",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68dea87d387eea3d0d95fbe3",
+  "qid": "SecAQ4",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Electrostatics",
+  "concept": "Capacity and capacitance",
+  "subConcept": "Parallel plate capacitors.",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2026-02-02T06:33:52.384Z",
+  "scq": {
+   "question": "<h3>A parallel plate capacitor is filled with a dielectric whose dielectric constant varies with the applied voltage as <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> K </mi><mo>=</mo><mi> &alpha; </mi><mi> V </mi></mrow></math>, where <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> &alpha; </mi><mo>=</mo><mn> 1 </mn></mrow></math> volt <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi></mi><mrow><mo>&minus;</mo><mn> 1 </mn></mrow></msup></mrow></math>. Another identical capacitor (without dielectric) charged to a potential drop <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi> V </mi><mrow><mn> 0 </mn></mrow></msub><mo>=</mo><mn> 30 </mn></mrow></math> volt is connected in parallel to the first uncharged capacitor. The final potential drop across each capacitor is<br />\n(A) 5 V<br />\n<mspace linebreak=\"newline\">(B) 10 V<br />\n<mspace linebreak=\"newline\">(C) 15 V<br />\n<mspace linebreak=\"newline\">(D) 20 V</mspace></mspace></mspace></h3>\n<mspace linebreak=\"newline\"></mspace>",
+   "solution": "<h3>Let the final potential drop across each capacitor is V .<br/><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><mtable><mtr><mtd columnalign=\"left\"><mrow><mi mathvariant=\"normal\">K</mi><mi mathvariant=\"normal\">C</mi><mi mathvariant=\"normal\">V</mi></mrow><mo>&#x0002B;</mo><mrow><mi mathvariant=\"normal\">C</mi><mi mathvariant=\"normal\">V</mi></mrow><mo>&#x0003D;</mo><msub><mrow><mi mathvariant=\"normal\">C</mi><mi mathvariant=\"normal\">V</mi></mrow><mrow><mn>0</mn></mrow></msub></mtd></mtr><mtr><mtd columnalign=\"left\"><mi>&#x003B1;</mi><msup><mrow><mi mathvariant=\"normal\">C</mi><mi mathvariant=\"normal\">V</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#x0002B;</mo><mrow><mi mathvariant=\"normal\">C</mi><mi mathvariant=\"normal\">V</mi></mrow><mo>&#x0003D;</mo><msub><mrow><mi mathvariant=\"normal\">C</mi><mi mathvariant=\"normal\">V</mi></mrow><mrow><mn>0</mn></mrow></msub></mtd></mtr><mtr><mtd columnalign=\"left\"><mo>&#x021D2;</mo><mi>&#x003B1;</mi><msup><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">V</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#x0002B;</mo><mi>&#x00056;</mi><mo>&#x02212;</mo><msub><mi>&#x00056;</mi><mrow><mn>0</mn></mrow></msub><mo>&#x0003D;</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msup><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">V</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&#x0002B;</mo><mi>&#x00056;</mi><mo>&#x02212;</mo><mn>30</mn><mo>&#x0003D;</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mo stretchy=\"false\">&#x00028;</mo><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">V</mi></mrow><mo>&#x0002B;</mo><mn>6</mn><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">&#x00028;</mo><mi>&#x00056;</mi><mo>&#x02212;</mo><mn>5</mn><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mo>&#x02234;</mo><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">V</mi></mrow><mo>&#x0003D;</mo><mn>5</mn><mtext>&#x000A0;volt&#x000A0;</mtext></mtd></mtr></mtable></mrow></mstyle></math></h3>",
+   "answer": "A",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "696a866665252c04fc1f81c2",
+  "qid": "JEEMAINS_2025_PHY_L4838",
+  "questionType": "integerQuestion",
+  "subject": "Physics",
+  "chapter": "Properties of matter and fluid mechanics",
+  "concept": "Stress and strain",
+  "subConcept": "Bulk Modulus and compressibility",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2026-02-06T19:13:45.601Z",
+  "integerQuestion": {
+   "question": "<h3>The volume contraction of a solid copper cube, when subjected to a hydraulic pressure of <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mi>&times;</mi><msup><mn>10</mn><mrow><mn>6</mn></mrow></msup><mrow><mtext>&nbsp;</mtext><mi mathvariant=\"normal\">P</mi><mi mathvariant=\"normal\">a</mi></mrow></mrow></math>, would be <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mi mathvariant=\"normal\">m</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></math>.</h3>\n\n<h3>(Given bulk modulus of copper <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>1.4</mn><mi>&times;</mi><msup><mn>10</mn><mrow><mn>11</mn></mrow></msup><msup><mrow><mi mathvariant=\"normal\">N</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mo>&minus;</mo><mn>2</mn></mrow></msup></mrow></math> )</h3>\n",
+   "solution": "<h3><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mi>B</mi><mo>=</mo><mfrac><mrow><mi>&Delta;</mi><mi>P</mi></mrow><mrow><mfrac><mrow><mi>&Delta;</mi><mi>V</mi></mrow><mrow><mi>V</mi></mrow></mfrac></mrow></mfrac></mrow></mstyle></math></h3>\n\n<h3><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mi>&Delta;</mi><mi>V</mi><mo>=</mo><mfrac><mrow><mn>7</mn><mi>&times;</mi><msup><mn>10</mn><mrow><mn>6</mn></mrow></msup></mrow><mrow><mn>1.4</mn><mi>&times;</mi><msup><mn>10</mn><mrow><mn>11</mn></mrow></msup></mrow></mfrac><mi>&times;</mi><msup><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><mn>10</mn><mi>&times;</mi><msup><mn>10</mn><mrow><mo>&minus;</mo><mn>2</mn></mrow></msup><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mn>3</mn></mrow></msup></mrow></mstyle></math></h3>\n\n<h3><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>&Delta;</mi><mi>V</mi><mo>=</mo><mn>50</mn><msup><mrow><mtext>&nbsp;</mtext><mi mathvariant=\"normal\">m</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></math></h3>\n",
+   "answer": "50",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "63c7cce12981ed154ee92c94",
+  "qid": "tTH86ZABzY",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Geometrical optics and optical instruments",
+  "concept": null,
+  "subConcept": null,
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2025-10-23T10:31:44.366Z",
+  "scq": {
+   "question": "<h3>A large parallel plate capacitor, whose plates have an area of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>1</mn><msup><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mstyle></math> and are separated from each other by 1 mm , is being charged at a rate of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>25</mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">V</mi></mrow><mo>&#x0002F;</mo><mi>&#x00073;</mi></mrow></mstyle></math>. If the dielectric between the plates has the dielectric constant 10 , then the displacement current at this instant is<br/>(A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>1.1</mn><mi>&#x003BC;</mi><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">A</mi></mrow></mrow></mstyle></math><br/>(B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>11</mn><mi>&#x003BC;</mi><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">A</mi></mrow></mrow></mstyle></math><br/>(C) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>2.2</mn><mi>&#x003BC;</mi><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">A</mi></mrow></mrow></mstyle></math><br/>(D) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>0.22</mn><mi>&#x003BC;</mi><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">A</mi></mrow></mrow></mstyle></math></h3>",
+   "solution": "<h3><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mtable><mtr><mtd columnalign=\"left\"><mi>C</mi><mo>&#x0003D;</mo><mi>k</mi><msub><mi>&#x003B5;</mi><mrow><mn>0</mn></mrow></msub><mfrac><mrow><mi>A</mi></mrow><mrow><mi>d</mi></mrow></mfrac><mo>&#x0003D;</mo><mn>8.85</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>8</mn></mrow></msup><mi>F</mi></mtd></mtr><mtr><mtd columnalign=\"left\"><msub><mi>&#x00069;</mi><mrow><mi>&#x00064;</mi></mrow></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>&#x00064;</mi></mrow><mrow><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">t</mi></mrow></mrow></mfrac><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"normal\">C</mi><mi mathvariant=\"normal\">V</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>2.2</mn><mi>&#x003BC;</mi><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">A</mi></mrow></mtd></mtr></mtable></mrow></mstyle></math></h3>",
+   "answer": "C",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68dea619d0cda73d07e93aee",
+  "qid": "SecBQ30",
+  "questionType": "integerQuestion",
+  "subject": "Physics",
+  "chapter": "Rotational Motion",
+  "concept": "Kinematics of rotational motion",
+  "subConcept": "Analogy between rotational and translational quantities",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2025-10-23T11:36:28.315Z",
+  "integerQuestion": {
+   "question": "<h3>Two wheels each marked with a dot on its rim are mounted side by side. When the wheels are at rest, the dots are aligned. One wheel is given a constant angular acceleration of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mi> π </mi></mrow><mrow><mn> 2 </mn></mrow></mfrac><mspace width=\"0.167em\" /><mrow><mi mathvariant=\"normal\"> r </mi><mi mathvariant=\"normal\"> a </mi><mi mathvariant=\"normal\"> d </mi></mrow><mo>/</mo><msup><mrow><mi mathvariant=\"normal\"> s </mi><mi mathvariant=\"normal\"> e </mi><mi mathvariant=\"normal\"> c </mi></mrow><mrow><mn> 2 </mn></mrow></msup></mrow></math> and the other is given a constant angular acceleration of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mi> π </mi></mrow><mrow><mn> 4 </mn></mrow></mfrac><mspace width=\"0.167em\" /><mrow><mi mathvariant=\"normal\"> r </mi><mi mathvariant=\"normal\"> a </mi><mi mathvariant=\"normal\"> d </mi></mrow><mo>/</mo><msup><mrow><mi mathvariant=\"normal\"> s </mi><mi mathvariant=\"normal\"> e </mi><mi mathvariant=\"normal\"> c </mi></mrow><mrow><mn> 2 </mn></mrow></msup></mrow></math>. The time after which the two dots will be aligned again for the first time (in seconds) is</h3>",
+   "solution": "<h3>Dots will be aligned again after time &#39; <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> t </mi></mrow></math> &#39;, if slower disc makes one rotation less than the other disc <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 2 </mn><mi> &pi; </mi><mi> n </mi><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 2 </mn></mrow></mfrac><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><mfrac><mrow><mi> &pi; </mi></mrow><mrow><mn> 2 </mn></mrow></mfrac><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><msup><mi> t </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 2 </mn><mi> &pi; </mi><mo stretchy=\"false\">(</mo><mi> n </mi><mo>&minus;</mo><mn> 1 </mn><mo stretchy=\"false\">)</mo><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 2 </mn></mrow></mfrac><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><mfrac><mrow><mi> &pi; </mi></mrow><mrow><mn> 4 </mn></mrow></mfrac><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><msup><mi> t </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi> n </mi></mrow><mrow><mi> n </mi><mo>&minus;</mo><mn> 1 </mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn> 2 </mn></mrow><mrow><mn> 1 </mn></mrow></mfrac><mo>&rArr;</mo><mi> n </mi><mo>=</mo><mn> 2 </mn></mrow></math> From equation (i) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> t </mi><mo>=</mo><mn> 4 </mn><mspace width=\"0.167em\"></mspace><mrow><mi mathvariant=\"normal\"> s </mi><mi mathvariant=\"normal\"> e </mi><mi mathvariant=\"normal\"> c </mi></mrow></mrow></math></h3>",
+   "answer": "4",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68e872546e45ba37dcc16bc0",
+  "qid": "SecAQ6",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Electrostatics",
+  "concept": "Coulomb's law",
+  "subConcept": "Coulomb's Law",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2026-01-20T07:21:22.252Z",
+  "scq": {
+   "question": "<h3>There are two charges <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>+</mo><mn> 3 </mn><mi> &mu; </mi><mi> C </mi></mrow></math> and <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&minus;</mo><mn> 4 </mn><mi> &mu; </mi><mi> C </mi></mrow></math> placed at a certain distance apart. The ratio of coulombic forces acting on them will be<br />(A) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 9 </mn><mi>:</mi><mn> 16 </mn></mrow></math><br />(B) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 2 </mn><mi>:</mi><msqrt><mrow><mn> 3 </mn></mrow></msqrt></mrow></math><br />(C) <br />(D) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 3 </mn><mi>:</mi><mn> 4 </mn></mrow></math></h3>\n",
+   "solution": "<h3><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mover><mrow><mi> F </mi></mrow><mo stretchy=\"true\">&rarr;</mo></mover><mrow><mn> 12 </mn></mrow></msub><mo>+</mo><msub><mover><mrow><mi> F </mi></mrow><mo stretchy=\"true\">&rarr;</mo></mover><mrow><mn> 21 </mn></mrow></msub><mo>=</mo><mn> 0 </mn></mrow></math><br />\n<br />\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">|</mo><msub><mover><mrow><mi> F </mi></mrow><mo stretchy=\"true\">&rarr;</mo></mover><mrow><mn> 12 </mn></mrow></msub><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">|</mo></mrow><mo>=</mo><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">|</mo><mo>&minus;</mo><msub><mover><mrow><mi> F </mi></mrow><mo stretchy=\"true\">&rarr;</mo></mover><mrow><mn> 21 </mn></mrow></msub><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">|</mo></mrow></mrow></math></h3>\n",
+   "answer": "C",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "66fe9dbe22132e5a70a3e579",
+  "qid": null,
+  "questionType": "scq",
+  "subject": "Zoology",
+  "chapter": "Chemical Coordination and Integration",
+  "concept": null,
+  "subConcept": null,
+  "level": null,
+  "error": 1,
+  "updatedAt": "2025-11-06T05:16:10.33Z",
+  "scq": {
+   "question": "<h3><ol>\n\t<li>Which of the following pairs of hormones are not antagonistic (having opposite effects) to each other?</li></h3><h3>(A) Parathormone &ndash; Calcitonin<br />(B) Insulin - Glucagon<br />(C) Aldosterone Atrial Natriuretic Factor<br />(D) Relaxin - Inhibin</h3>",
+   "solution": "<h3><ol>\n\t<li>Calcitonin exerts its effects by interacting with target cells, primarily in bone and kidney. The actions of PTH and calcitonin are antagonistic on bone resorption but synergistic on decreasing the renal tubular reabsorption of phosphorus. Insulin and glucagon work synergistically to keep blood glucose concentrations normal. An elevated blood glucose concentration results in the secretion of insulin and glucose is transported into body cells. Aldosterone secretion may be inhibited by potassium depletion, inhibitors of the renin-angiotensin system, dopamine and atrial natriuretic factor. The latter appears to be an important physiological regulator of aldosterone secretion. ANF inhibits basal, ACTH, Angiotensin II and potassium-stimulated aldosterone production in vitro by a direct action on the adrenal gland. Inhibin is a hormone secreted by granulosa cells of the ovary which inhibit the secretion of FSH (Follicle Stimulating Hormone) whereas relaxin produced by ovary and placenta at the time of childbirth to softens the ligament in the pelvis and widens the cervix.</li>\n</ol></h3>",
+   "answer": "D",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "620e23cecc50543bc7db9186",
+  "qid": "ooPnTRb-EH",
+  "questionType": "scq",
+  "subject": "Zoology",
+  "chapter": "Evolution",
+  "concept": null,
+  "subConcept": null,
+  "level": "HARD",
+  "error": 1,
+  "updatedAt": "2025-11-06T06:38:25.497Z",
+  "scq": {
+   "question": "<h3><span style=\"color:#000000\">A biologist is trying to infer how five closely related species of snakes are related to one another. She noticed that some of the snakes have forked tongues and others do not. Which of the following would help her to distinguish their ancestral state?</h3><h3>(A)<span style=\"color:#000000\"> <span style=\"color:#000000\">She looks among snake fossils for evidences that being forked is a characteristic of the ancestor of this group, but determines no such fossils exists<br />(B)<span style=\"color:#000000\"> <span style=\"color:#000000\">She locates a specimen of a more distantly related snake to see if it has a forked tongue<br />(C)<span style=\"color:#000000\"> </span><span style=\"color:#000000\">She looks at a representative mammal species to see if it has a forked tongue</span></span></span><br />(D)</span></span></span><span style=\"color:#000000\"> </span></span></span><span style=\"color:#000000\">She flips a coin</span></span></span></h3>",
+   "solution": "<h3><span style=\"color:#000000\">Forked tongue snakes may represents the origin of new variety of snake from the non-forked tongue snakes. If biologist is trying to find that how closely these two species are related to each other than, he/she has to locate a specimen of more distantly related snake to see it, wheater, it has a forked tongue or not</span></h3>",
+   "answer": "B",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "6208e80a9cb2ab67dac61bd0",
+  "qid": "hYQRqKx1w",
+  "questionType": "scq",
+  "subject": "Botany",
+  "chapter": "Photosynthesis in Higher Plants",
+  "concept": null,
+  "subConcept": null,
+  "level": "HARD",
+  "error": 1,
+  "updatedAt": "2026-11-07T10:42:00Z",
+  "scq": {
+   "question": "<h3><span style=\"color:#000000\">Rate of photosynthesis is low in herbs, shrubs as compared to sun plants because</h3><h3>(A)<span style=\"color:#000000\"> <span style=\"color:#000000\">Herb, shrubs receive more red light<br />(B)<span style=\"color:#000000\"> <span style=\"color:#000000\">Herb, shrubs receive more blue light<br />(C)<span style=\"color:#000000\"> </span><span style=\"color:#000000\">Herb, shrubs receive more green light</span></span></span><br />(D)</span></span></span><span style=\"color:#000000\"> </span></span></span><span style=\"color:#000000\">Herb, shrubs receive more white light</span></span></span></h3>",
+   "solution": "<h3><span style=\"color:#000000\">Minimum photosynthesis occur in the green wavelength. Plants grow under the canopy like herbs and shrubs receive very little red and blue-violet light because of its absorption by leaves of the canopy. They receive more of green light that is transmitted through leaves. As a result, the photosynthesis in herbs and shrubs is comparatively low</span></h3>",
+   "answer": "C",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": [
+   {
+    "type": "Spelling mistake",
+    "actor": "faculty",
+    "at": "2026-11-07T10:42:00Z",
+    "note": "'mere' -> 'more' in options A-C; 'shurbs' -> 'shrubs'"
+   }
+  ]
+ },
+ {
+  "_id": "68dea657387eea3d0d95f54a",
+  "qid": "SecAQ14",
+  "questionType": "integerQuestion",
+  "subject": "Physics",
+  "chapter": "Geometrical optics and optical instruments",
+  "concept": "Thin lens",
+  "subConcept": "Combination of lenses & Mirrors",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2025-10-23T11:36:54.366Z",
+  "integerQuestion": {
+   "question": "<h3>Two identical thin converging lenses are kept in contact at a distance 12.5 cm from an object. If real image produced is 4 times enlarged then what is the optical power of each lens in dioptres.</h3>",
+   "solution": "<h3>If <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi> f </mi><mrow><mtext> eq </mtext></mrow></msub></mrow></math> is the focal length of combination, we use <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> u </mi><mo>=</mo><mo>&minus;</mo><mn> 12.5 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> c </mi><mi mathvariant=\"normal\"> m </mi></mrow></mrow></math> For real image <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> v </mi><mo>=</mo><mrow><mi mathvariant=\"normal\"> m </mi><mi mathvariant=\"normal\"> u </mi></mrow><mo>=</mo><mo>+</mo><mn> 50 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> c </mi><mi mathvariant=\"normal\"> m </mi></mrow></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn> 1 </mn></mrow><mrow><mi> v </mi></mrow></mfrac><mo>&minus;</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mi> u </mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><msub><mi> f </mi><mrow><mtext> eq </mtext></mrow></msub></mrow></mfrac></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&rArr;</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 50 </mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 12.5 </mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><msub><mi> f </mi><mrow><mtext> eq </mtext></mrow></msub></mrow></mfrac></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&rArr;</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><msub><mi> f </mi><mrow><mrow><mi mathvariant=\"normal\"> e </mi><mi mathvariant=\"normal\"> q </mi></mrow></mrow></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 10 </mn></mrow></mfrac></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&rArr;</mo><msub><mi> f </mi><mrow><mrow><mi mathvariant=\"normal\"> e </mi><mi mathvariant=\"normal\"> q </mi></mrow></mrow></msub><mo>=</mo><mn> 10 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> c </mi><mi mathvariant=\"normal\"> m </mi></mrow></mrow></math> Equivalent power of the lens system is <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi> P </mi><mrow><mtext> eq </mtext></mrow></msub><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 0.1 </mn></mrow></mfrac><mo>=</mo><mn> 10 </mn><mi> D </mi><mo>=</mo><mn> 2 </mn><msub><mi> P </mi><mrow><mtext> eqcu </mtext></mrow></msub></mrow></math> Optical power of each lens is <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi> P </mi><mrow><mtext> eqch </mtext></mrow></msub><mo>=</mo><mn> 5 </mn><mi> D </mi></mrow></math></h3>",
+   "answer": "5",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "61dffbec08489156b684bd22",
+  "qid": "mdgrnTePv",
+  "questionType": "scq",
+  "subject": "Zoology",
+  "chapter": "Structural Organisation in Animals",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2025-11-06T05:50:58.617Z",
+  "scq": {
+   "question": "<h3><span style=\"color:#000000\">Which tissue is present in the lining of small intestine?</h3><h3>(A)<span style=\"color:#000000\"> <span style=\"color:#000000\">Epithellial tisue<br />(B)<span style=\"color:#000000\"> <span style=\"color:#000000\">Connective tissue<br />(C)<span style=\"color:#000000\"> <span style=\"color:#000000\">Nervous tissue<br />(D)</span></span></span><span style=\"color:#000000\"> </span></span></span><span style=\"color:#000000\">Muscular tissue</span></span></span></h3>",
+   "solution": "<h3><span style=\"color:#000000\">Epithelial tissue has free surfaces, which faces either a body fluid or the outside environment and thus, provides a covering or a lining for some part of body. It is found on a lining of small intestine and helps in secretion and absorption</span></h3>",
+   "answer": "A",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68e870ef42c06737d6e565c4",
+  "qid": "SecAQ27",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Kinetic theory of gases",
+  "concept": "Average pressure exerted by an ideal gas",
+  "subConcept": "Pressure on the walls of container.",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2026-01-20T07:20:23.642Z",
+  "scq": {
+   "question": "<h3>The density of a gas is <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 9 </mn><mi>&times;</mi><msup><mn> 10 </mn><mrow><mo>&minus;</mo><mn> 2 </mn></mrow></msup><mrow><mtext> </mtext><mi mathvariant=\"normal\"> k </mi><mi mathvariant=\"normal\"> g </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 3 </mn></mrow></msup></mrow></math> and root mean square velocity of gas molecules is <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 400 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> m </mi></mrow><mo>/</mo><mi> s </mi></mrow></math>. The pressure exerted by the gas on the walls of the vessel is<br />(A) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 4556 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math><br />(B) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 8225 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math><br />(C) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 7520 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math><br />(D) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 4800 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math></h3>\n",
+   "solution": "<h3>Pressure of the gas <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> P </mi><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 3 </mn></mrow></mfrac><mi> &rho; </mi><msup><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><msub><mi> v </mi><mrow><mrow><mi mathvariant=\"normal\"> r </mi><mi mathvariant=\"normal\"> m </mi><mi mathvariant=\"normal\"> s </mi></mrow></mrow></msub><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mn> 2 </mn></mrow></msup></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> P </mi><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 3 </mn></mrow></mfrac><mi>&times;</mi><mn> 9 </mn><mi>&times;</mi><msup><mn> 10 </mn><mrow><mo>&minus;</mo><mn> 2 </mn></mrow></msup><mi>&times;</mi><mo stretchy=\"false\">(</mo><mn> 400 </mn><msup><mo stretchy=\"false\">)</mo><mrow><mn> 2 </mn></mrow></msup><mo>=</mo><mn> 4800 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math></h3>\n",
+   "answer": "A",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68e8734442c06737d6e56da4",
+  "qid": "SecAQ14",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Newton's law of motion",
+  "concept": "Friction",
+  "subConcept": "Coefficient of friction",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2026-01-20T07:22:18.329Z",
+  "scq": {
+   "question": "<h3>A block of weight 100 N when pushed by a force <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> F </mi></mrow></math> on a horizontal rough surface moves with an acceleration <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 1 </mn><mtext> </mtext><mi> m </mi><mo>/</mo><msup><mi> s </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math>, when force is doubled its acceleration becomes <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 10 </mn><mtext> </mtext><mi> m </mi><mo>/</mo><msup><mi> s </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math>. The coefficient of friction between block and surface is <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo stretchy=\"false\">(</mo><mi> g </mi><mo>=</mo><mn> 10 </mn><mtext> </mtext><mi> m </mi><mo>/</mo><msup><mi> s </mi><mrow><mn> 2 </mn></mrow></msup><mo stretchy=\"false\">)</mo></mrow></math><br />(A) 0.8<br />(B) 0.4<br />(C) 0.6<br />(D) 0.2</h3>\n",
+   "solution": "<h3><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><mtable><mtr><mtd columnalign=\"left\"><mi>F</mi><mo>&#x02212;</mo><mi>&#x003BC;</mi><mi>m</mi><mi>g</mi><mo>&#x0003D;</mo><mi>m</mi><mi>a</mi></mtd></mtr><mtr><mtd columnalign=\"left\"><mi>F</mi><mo>&#x02212;</mo><mi>&#x003BC;</mi><mi>&#x000D7;</mi><mn>100</mn><mo>&#x0003D;</mo><mn>10</mn></mtd></mtr></mtable></mrow></mstyle></math><br/><br/>When force becomes double<br/><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><mn>2</mn><mi>F</mi><mo>&#x02212;</mo><mi>&#x003BC;</mi><mn>100</mn><mo>&#x0003D;</mo><mn>100</mn></mrow></mstyle></math><br/><br/>On putting the value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>F</mi></mrow></mstyle></math> from (i) and (ii)<br/><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><mtable><mtr><mtd columnalign=\"left\"><mn>2</mn><mo stretchy=\"false\">&#x00028;</mo><mn>10</mn><mo>&#x0002B;</mo><mi>&#x003BC;</mi><mn>100</mn><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02212;</mo><mi>&#x003BC;</mi><mn>100</mn><mo>&#x0003D;</mo><mn>100</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mn>20</mn><mo>&#x0002B;</mo><mn>100</mn><mi>&#x003BC;</mi><mo>&#x0003D;</mo><mn>100</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mi>&#x003BC;</mi><mo>&#x0003D;</mo><mn>0.8</mn></mtd></mtr></mtable></mrow></mstyle></math></h3>",
+   "answer": "A",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "6956d79788d7701e5617bc29",
+  "qid": "MHCET_BvpWWm7z2cY7YB0TjCzV_PHY_150",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "AC Circuits",
+  "concept": "A.C. circuits",
+  "subConcept": "Power, Power Factor and Wattless current",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2026-02-28T17:45:21.874Z",
+  "scq": {
+   "question": "<h3>In an AC circuit, the current is <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mi>i</mi><mo>=</mo><mn> 5 </mn><mi> sin </mi><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><mn> 100 </mn><mi>t</mi><mo>&minus;</mo><mfrac><mrow><mi>&pi;</mi></mrow><mrow><mn> 2 </mn></mrow></mfrac><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><mi>A</mi></mrow></mstyle></math> and voltage is <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>e</mi><mo>=</mo><mn> 200 </mn><mi> sin </mi><mo stretchy=\"false\">(</mo><mn> 100 </mn><mi>t</mi><mo stretchy=\"false\">)</mo></mrow></math> volt. Power consumption in the circuit is ( <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> cos </mi><msup><mn> 90 </mn><mrow><mo>∘</mo></mrow></msup><mo>=</mo><mn> 0 </mn></mrow></math> )<br />\n(A) 200 W<br />\n(B) 0 W<br />\n(C) 0 W<br />\n(D) 1000 W&nbsp;</h3>\n",
+   "solution": "<h3><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mrow><mi>&amp;</mi><mi>P</mi><mo>=</mo><msub><mi>I</mi><mrow><mrow><mi mathvariant=\"normal\"> r </mi><mi mathvariant=\"normal\"> m </mi><mi mathvariant=\"normal\"> s </mi></mrow></mrow></msub><msub><mrow><mtext>&nbsp;</mtext><mi mathvariant=\"normal\"> V </mi></mrow><mrow><mrow><mi mathvariant=\"normal\"> r </mi><mi mathvariant=\"normal\"> m </mi><mi mathvariant=\"normal\"> s </mi></mrow></mrow></msub><mi> cos </mi><mi>ϕ</mi><mspace linebreak=\"newline\"></mspace><mi>&amp;</mi><mi>ϕ</mi><mo>=</mo><msup><mn> 90 </mn><mrow><mo>∘</mo></mrow></msup></mrow></mrow></math><br />\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&there4;</mo><mspace width=\"1em\"></mspace><mi>P</mi><mo>=</mo><mn> 0 </mn><mspace width=\"1em\"></mspace><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><mo>∵</mo><mi> cos </mi><msup><mn> 90 </mn><mrow><mo>∘</mo></mrow></msup><mo>=</mo><mn> 0 </mn><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow></math></h3>\n",
+   "answer": "B",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "695ee00b88d7701e561aabc5",
+  "qid": "MHCET_PCB_PYQ_2025_12_PHY_L539",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Waves",
+  "concept": "Superposition of Sound Waves",
+  "subConcept": "Interference",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2026-02-28T17:57:21.661Z",
+  "scq": {
+   "question": "<h3>Assertion&nbsp;(A) : When two waves of equal amplitude and a phase difference of <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mi>&pi;</mi></mrow><mrow><mn> 2 </mn></mrow></mfrac></mrow></mstyle></math> interfere, the resulting intensity is equal to the intensity of one wave.<br />\nReason (R): In interference, the resultant intensity is always the sum of individual intensities if the phase difference is non-zero.<br />\n<br />\n(A) Both A and R are true, and R is the correct explanation of A .<br />\n(B) Both A and R are true, but R is not the correct explanation of A .<br />\n(C) A is true, but R is false.<br />\n(D) A is false, but R is true.</h3>\n",
+   "solution": "<h3>Assertion<br />\n(A) is false because when two waves of equal amplitude interfere with a phase difference of <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mi>&pi;</mi></mrow><mrow><mn> 2 </mn></mrow></mfrac></mrow></mstyle></math>, the resultant intensity is not equal to the intensity of one wave. Instead, it is given by:<br />\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mi> I </mi><mo>=</mo><mn> 2 </mn><msub><mi> I </mi><mrow><mn> 0 </mn></mrow></msub><msup><mi> cos </mi><mrow><mn> 2 </mn></mrow></msup><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><mfrac><mrow><mi>ϕ</mi></mrow><mrow><mn> 2 </mn></mrow></mfrac><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow></mstyle></math><br />\nFor a phase difference of <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mi>&pi;</mi></mrow><mrow><mn> 2 </mn></mrow></mfrac></mrow></mstyle></math>, this formula gives:<br />\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mi> I </mi><mo>=</mo><mn> 2 </mn><msub><mi> I </mi><mrow><mn> 0 </mn></mrow></msub><msup><mi> cos </mi><mrow><mn> 2 </mn></mrow></msup><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><mfrac><mrow><mi>&pi;</mi></mrow><mrow><mn> 4 </mn></mrow></mfrac><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>=</mo><mn> 2 </mn><msub><mi> I </mi><mrow><mn> 0 </mn></mrow></msub><mi>&times;</mi><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 2 </mn></mrow></mfrac><mo>=</mo><msub><mi> I </mi><mrow><mn> 0 </mn></mrow></msub></mrow></mstyle></math><br />\nThus, the intensity is equal to the intensity of one wave. Therefore, assertion<br />\n(A) is true. Reason (R) is correct because the resultant intensity in interference can indeed be the sum of the individual intensities when the phase difference is non-zero. However, in the case of a phase difference of <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mi>&pi;</mi></mrow><mrow><mn> 2 </mn></mrow></mfrac></mrow></mstyle></math>, the intensities do not simply add up; they are modified by the interference effect.<br />\nThus, the correct answer is (d), as assertion<br />\n(A) is false but reason (R) is true.</h3>\n",
+   "answer": "D",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "622df25ab70e4b50e44ff837",
+  "qid": "F-eZtasNL",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Properties of matter and fluid mechanics",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2025-10-23T10:37:05.806Z",
+  "scq": {
+   "question": "<h3>A glass tube of uniform internal radius (r) has a valve separating the two identical ends. Initially, the valve is in a tightly closed position. End 1 has a hemispherial soap bubble of radius <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>r</mi></mrow></mstyle></math>. End 2 has sub-hemispherical soap bubble as shown in figure.<br/><br/>Just after opening the valve.<br/>(A) air from end 1 flows towards end 2 . No change in the volume of the soap bubbles<br/>(B) air from end 1 flows towards end 2. Volume of the soap bubble at end 1 decreases<br/>(C) no change occurs<br/>(D) air from end 2 flows towards end 1 . Volume of the soap bubble at end 1 increases</h3>",
+   "solution": "<h3>Pressure inside tube <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><mi>P</mi><mo>&#x0003D;</mo><msub><mi>P</mi><mrow><mn>0</mn></mrow></msub><mo>&#x0002B;</mo><mfrac><mrow><mn>4</mn><mi>T</mi></mrow><mrow><mi>r</mi></mrow></mfrac></mrow></mstyle></math><br/><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><mo>&#x02234;</mo><msub><mi>P</mi><mrow><mn>2</mn></mrow></msub><mo>&#x0003C;</mo><msub><mi>P</mi><mrow><mn>1</mn></mrow></msub><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mtext>&#x000A0;since&#x000A0;</mtext><msub><mi>r</mi><mrow><mn>2</mn></mrow></msub><mo>&#x0003E;</mo><msub><mi>r</mi><mrow><mn>1</mn></mrow></msub><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow></mrow></mstyle></math><br/><br/>Hence pressure on side 1 will be greater than side 2 .<br/>So air from end 1 flows towards end 2</h3>",
+   "answer": "B",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "6208e298fa399567e0878700",
+  "qid": "zSEnT8qqj",
+  "questionType": "scq",
+  "subject": "Botany",
+  "chapter": "Photosynthesis in Higher Plants",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2025-11-06T08:43:08.711Z",
+  "scq": {
+   "question": "<h3><span style=\"color:#000000\">Who provided the evidence for the production of glucose when plant grows?</h3><h3>(A)<span style=\"color:#000000\"> <span style=\"color:#000000\">Julius von Sachs<br />(B)<span style=\"color:#000000\"> <span style=\"color:#000000\">Stephen Hales<br />(C)<span style=\"color:#000000\"> <span style=\"color:#000000\">Lavoisier<br />(D)</span></span></span><span style=\"color:#000000\"> </span></span></span><span style=\"color:#000000\">Von Helmont</span></span></span></h3>",
+   "solution": "<h3><span style=\"color:#000000\">Julius von Sachs provided evidence for the production of glucose when plants grow. Glucose is usually stored as starch. His later studies showed that the green substance in plants (chlorophyll as we know it now) is located in special bodies (later called chloroplast) within plant cells.<br />\r\n<span style=\"color:#000000\">He found that the green parts in plants are where glucose is made, and that the glucose is usually stored as starch</span></span></h3>",
+   "answer": "A",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "695ede2a88d7701e561aa9d9",
+  "qid": "MHCET_PCB_PYQ_2021_1_BIO_L876",
+  "questionType": "scq",
+  "subject": "Zoology",
+  "chapter": "Excretory Products and their Elimination",
+  "concept": "Disorders of excretory system",
+  "subConcept": "Uremia, Renal failure, Glomerulonephritis, Urolithiasis (Renal calculi)",
+  "level": "HARD",
+  "error": 1,
+  "updatedAt": "2026-02-28T17:55:41.651Z",
+  "scq": {
+   "question": "<h3>Based on the statements regarding dialysis choose the correct answer from options given below.<br />\nStatement-I: Dialysis is regarded as a &#39;holding measure&#39; until a renal transplant is performed.<br />\nStatement-II: Sometimes dialysis is not a supportive measure in those for whom&nbsp;transplant is inappropriate.<br />\n(A) Statement-I is incorrect but Statement-II is correct.<br />\n(B) Both Statement-I and Statement-II are correct.<br />\n(C) Both Statement-I and Statement-II are incorrect.<br />\n(D) Statement-I is correct but Statement-II is incorrect.</h3>\n",
+   "solution": "<h3>The correct answer is&nbsp;(D) Statement-I is correct but Statement-II is incorrect. as&nbsp;dialysis serves as a crucial bridge until transplant&nbsp;(Statement-I) and is also used as a long-term or indefinite therapy for patients who aren&#39;t transplant candidates due to age, other severe health issues, or lack of suitable organs, making it a supportive measure when transplant isn&#39;t feasible (Statement-II).</h3>\n",
+   "answer": "D",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "612151a6a34397610a9a2e58",
+  "qid": "pbMm2pKu_",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Photoelectric effect and matter waves",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2026-01-23T16:19:27.647Z",
+  "scq": {
+   "question": "<h3><span style=\"color:#000000\">The kinetic energy of an electron with de-Broglie wavelength of 0.3 nanometer is <span style=\"color:#000000\"> </span></span><br />\n(A) 0.168 <span style=\"color:#000000\">eV<br />\n(B)&nbsp;<span style=\"color:#000000\">16.8 <span style=\"color:#000000\">eV<br />\n<span style=\"color:#000000\">(C) 1.68 <span style=\"color:#000000\">eV<br />\n(D)&nbsp;</span></span>2.5 </span></span>eV</span></h3>\n",
+   "solution": "<h3><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><mn>5.469</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>10</mn></mrow></msup><mi>m</mi><mo>&#x0003D;</mo><mn>5.47</mn><mi>\\AA</mi></mrow></mstyle></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>&#x003BB;</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>h</mi></mrow><mrow><mo stretchy=\"false\">&#x0007C;</mo><mi>p</mi><mo stretchy=\"false\">&#x0007C;</mo></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mi>h</mi></mrow><mrow><mo stretchy=\"false\">&#x0007C;</mo><mi>I</mi><mo stretchy=\"false\">&#x0007C;</mo></mrow></mfrac></mrow></mstyle></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><mn>2.65</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>18</mn></mrow></msup><mi>J</mi></mrow></mstyle></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><mn>16.8</mn><mi>e</mi><mi>V</mi></mrow></mstyle></math></h3>",
+   "answer": "B",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "60f742f6660d187cc13a8078",
+  "qid": null,
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Alternating Current and EM Waves",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2025-10-23T09:32:19.634Z",
+  "scq": {
+   "question": "<h3><span style=\"color:#000000\">A resistance of 40 ohm and an inductance are connected in series in a 50 cycles/second ac circuit. The impedance of this combination is very nearly</h3><h3>(A)<span style=\"color:#000000\"> <span style=\"color:#000000\">30 ohm<br />(B)<span style=\"color:#000000\"> <span style=\"color:#000000\">40 ohm<br />(C)<span style=\"color:#000000\"> <span style=\"color:#000000\">50 ohm<br />(D)</span></span></span><span style=\"color:#000000\"> </span></span></span><span style=\"color:#000000\">60 ohm</span></span></span></h3>",
+   "solution": "<h3><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>Z</mi><mo>&#x0003D;</mo><msqrt><mrow><msup><mi>R</mi><mrow><mn>2</mn></mrow></msup><mo>&#x0002B;</mo><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mi>&#x003C0;</mi><mi>v</mi><mi>L</mi><msup><mo stretchy=\"false\">&#x00029;</mo><mrow><mn>2</mn></mrow></msup></mrow></msqrt></mrow></mstyle></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><msqrt><mrow><mo stretchy=\"false\">&#x00028;</mo><mn>40</mn><msup><mo stretchy=\"false\">&#x00029;</mo><mrow><mn>2</mn></mrow></msup><mo>&#x0002B;</mo><mn>4</mn><msup><mi>&#x003C0;</mi><mrow><mn>2</mn></mrow></msup><mi>&#x000D7;</mi><mo stretchy=\"false\">&#x00028;</mo><mn>50</mn><msup><mo stretchy=\"false\">&#x00029;</mo><mrow><mn>2</mn></mrow></msup><mi>&#x000D7;</mi><msup><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mn>95.5</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>3</mn></mrow></msup><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mrow><mn>2</mn></mrow></msup></mrow></msqrt><mo>&#x0003D;</mo><mn>50</mn><mrow><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">h</mi><mi mathvariant=\"normal\">m</mi></mrow></mrow></mstyle></math></h3>",
+   "answer": "C",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68f21df0941cda588bc0470b",
+  "qid": "SecAQ14",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Work, power and energy",
+  "concept": "Energy",
+  "subConcept": "Relation between momentum and kinetic energy of a particle",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2026-01-20T07:24:09.655Z",
+  "scq": {
+   "question": "<h3>If the kinetic energy of a body becomes four times of its initial value, then new momentum will<br />(A) Become twice its initial value<br />(B) Become three times, its initial value<br />(C) Become four times, its initial value<br />(D) Remains constant</h3>\n",
+   "solution": "<h3><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><msub><mi>p</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow><msub><mi>p</mi><mrow><mn>1</mn></mrow></msub></mrow></mfrac><mo>&#x0003D;</mo><msqrt><mrow><mfrac><mrow><mi>K</mi><msub><mi>E</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow><mi>K</mi><msub><mi>E</mi><mrow><mn>1</mn></mrow></msub></mrow></mfrac></mrow></msqrt></mrow></mstyle></math><br/><br/>When KE become four times then momentum (p) become two times.</h3>",
+   "answer": "A",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "6264197209f4fd65f58f5707",
+  "qid": "uiKqpBTMj",
+  "questionType": "scq",
+  "subject": "Zoology",
+  "chapter": "Biotechnology and its Applications",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2025-11-06T06:56:04.161Z",
+  "scq": {
+   "question": "<h3><span style=\"color:#000000\">Consumption of which one of the following foods can prevent the kind of blindness associated with vitamin &#39;A&#39; deficiency?</h3><h3>(A) &#39;Flavr Savr&#39; tomato<br />(B) Canolla<br />(C) Golden rice<br />(D) Bt-Brinjal</span></span></span></h3>",
+   "solution": "<h3><span style=\"color:#000000\">Golden riceis genetically engineered to producebeta-carotene, a precursor ofvitamin A, in the edible parts of the rice. It was specifically developed to helpprevent vitamin A deficiency, which can lead tonight blindness and complete blindness, especially in children in developing countries.</span>\n <span style=\"color:#000000\">Flavr Savr tomato: Engineered for longer shelf life.</span><br />\n\n <span style=\"color:#000000\">Canola: Known for oil production; not related to vitamin A.</span><br />\n\n <span style=\"color:#000000\">Bt-Brinjal: Engineered for insect resistance (Bt toxin), not vitamin A enrichment.</span></h3>",
+   "answer": "C",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "617fa18efd53ff1629ed890f",
+  "qid": "nQM6UGBK-",
+  "questionType": "scq",
+  "subject": "Botany",
+  "chapter": "Morphology of Flowering Plants",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2025-11-06T07:50:17.57Z",
+  "scq": {
+   "question": "<h3><span style=\"color:#000000\">(NEET 2019) Which of the following is the green expanded part of<span style=\"color:#000000\">leaf with vein and veinlets?</h3><h3>(A) Petiole<br />(B) Node</span><br />(C) Stipule<br />(D) Lamina</span></span></span></h3>",
+   "solution": "<h3><span style=\"color:#000000\">Lamina on the leaf blade is usually flattened green photosynthetic part consisting leaf veins and veinlets. Its upper surface is called adaxial while the lower surface is called abaxial. The shape margin, apex, surface and extent of incision of lamina vary in different leaves.</span></h3>",
+   "answer": "D",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "6062ec84518e9535e120c422",
+  "qid": null,
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Temperature and thermal properties of matter",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2026-02-23T13:15:30.909Z",
+  "scq": {
+   "question": "<h3>A silver rod of length 1 m (or 100 cm) at<span style=\"color:#000000\"> 0<sup>o</sup>C<span style=\"color:#000000\"><span style=\"color:#000000\">&nbsp;is heated to 100<sup>o</sup>C<span style=\"color:#000000\"><span style=\"color:#000000\">. It&rsquo;s length is increased by 0.19 cm.<span style=\"color:#000000\"><span style=\"color:#000000\">&nbsp;</span></span></span></span></span></span></span>Find the coefficient of cubical expansion of silver.</h3>\n\n<h3>(A)<span style=\"color:#000000\">&nbsp;5.7 x 10<sup>-5</sup>/<sup>o</sup>C<br />\n<span style=\"color:#000000\">(B)<span style=\"color:#000000\">&nbsp;0.63</span></span>&nbsp;x 10<sup>-5</sup>/<sup>o</sup>C<br />\n<span style=\"color:#000000\"><span style=\"color:#000000\"><span style=\"color:#000000\">(C)</span></span>&nbsp;1.9</span>&nbsp;x 10<sup>-5</sup>/<sup>o</sup>C<br />\n(D)<span style=\"color:#000000\">&nbsp;16.1</span>&nbsp;x 10<sup>-5</sup>/<sup>o</sup>C</span></h3>\n",
+   "solution": "<h3><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>&#x00394;</mi><mi>L</mi></mrow><mrow><msub><mi>L</mi><mrow><mn>0</mn></mrow></msub><mo stretchy=\"false\">&#x00028;</mo><mi>&#x00394;</mi><mi>&#x003B8;</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mn>0.19</mn></mrow><mrow><mn>100</mn><mo stretchy=\"false\">&#x00028;</mo><mn>100</mn><mo>&#x02212;</mo><mn>0</mn><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac><mo>&#x0003D;</mo><mn>1.9</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>5</mn></mrow></msup><mo>&#x0002F;</mo><mrow><mi mathvariant=\"normal\">A</mi><mi mathvariant=\"normal\">C</mi></mrow></mrow></mstyle></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>&#x003B3;</mi><mo>&#x0003D;</mo><mn>3</mn><mi>a</mi><mo>&#x0003D;</mo><mn>3</mn><mi>&#x000D7;</mi><mn>1.9</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>5</mn></mrow></msup><mo>&#x0002F;</mo><mi>&#x00043;</mi><mo>&#x0003D;</mo><mn>5.7</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>5</mn></mrow></msup><mo>&#x0002F;</mo><mrow><mi mathvariant=\"normal\">C</mi><mi mathvariant=\"normal\">C</mi></mrow></mrow></mstyle></math></h3>",
+   "answer": "A",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "5fc60508028950133eac8963",
+  "qid": "9u1vPUIytR",
+  "questionType": "integerQuestion",
+  "subject": "Physics",
+  "chapter": "Newton's law of motion",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2026-02-13T21:04:03.636Z",
+  "integerQuestion": {
+   "question": "<h3><span style=\"color:#000000\">A body of mass 2 kg is kept by pressing to a vertical wall by a force of 100 N. The friction between wall and body is 0.3. Then the frictional force is equal to</span></h3>\n",
+   "solution": "<h3>The maximum friction available to prevent sliding is given by:<br />\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>f</mi><mrow><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>=</mo><mi>&#956;</mi><mo>&#215;</mo><mi>N</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>3</mn><mo>&#215;</mo><mn>100</mn><mo>=</mo><mn>30</mn><mo>&#160;</mo><mi>N</mi></math><br />\nThe force pulling the body down is its&nbsp;weight,<br />\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi><mo>=</mo><mi>m</mi><mi>g</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>10</mn><mo>=</mo><mn>20</mn><mo>&#160;</mo><mi>N</mi></math><br />\nStatic friction is a self-adjusting force that only acts to balance the applied force, up to its maximum value. Since the weight (W = 20 N)&nbsp;is<strong>&nbsp;</strong>less&nbsp;than the maximum available friction (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>f</mi><mrow><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>=</mo><mn>30</mn><mo>&#160;</mo><mi>N</mi></math>),&nbsp;the body remains at rest. Therefore, the actual frictional force is exactly equal to the weight.<br />\n​​​​​​​</h3>\n",
+   "answer": "20",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68dea6e6387eea3d0d95f6f8",
+  "qid": "SecAQ11",
+  "questionType": "integerQuestion",
+  "subject": "Physics",
+  "chapter": "Geometrical optics and optical instruments",
+  "concept": "Thin lens",
+  "subConcept": "Displacement method",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2025-10-23T11:38:22.338Z",
+  "integerQuestion": {
+   "question": "<h3>In a setup of displacement method experiment, distance between the screen and a light source is 150 cm and the lens used has a small aperture. By moving the lens between the source and the screen, sharp images are obtained on the screen for two different positions of the lens. The focal length of the lens is 24 cm . Find the ratio of the sizes of these two images formed on the screen.</h3>",
+   "solution": "<h3><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mspace width=\"1em\"></mspace><mi> f </mi><mo>=</mo><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><mfrac><mrow><msup><mi> D </mi><mrow><mn> 2 </mn></mrow></msup><mo>&minus;</mo><msup><mi> x </mi><mrow><mn> 2 </mn></mrow></msup></mrow><mrow><mn> 4 </mn><mi> D </mi></mrow></mfrac><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi> x </mi><mrow><mn> 2 </mn></mrow></msup><mo>=</mo><msup><mi> D </mi><mrow><mn> 2 </mn></mrow></msup><mo>&minus;</mo><mn> 4 </mn><mrow><mi mathvariant=\"normal\"> D </mi><mi mathvariant=\"normal\"> F </mi></mrow></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> x </mi><mo>=</mo><msqrt><mrow><mi> D </mi><mo stretchy=\"false\">(</mo><mi> D </mi><mo>&minus;</mo><mn> 4 </mn><mi> f </mi><mo stretchy=\"false\">)</mo></mrow></msqrt></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> x </mi><mo>=</mo><msqrt><mrow><mn> 150 </mn><mo stretchy=\"false\">(</mo><mn> 150 </mn><mo>&minus;</mo><mn> 96 </mn><mo stretchy=\"false\">)</mo></mrow></msqrt></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> x </mi><mo>=</mo><msqrt><mrow><mn> 150 </mn><mi>&times;</mi><mn> 54 </mn></mrow></msqrt></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> x </mi><mo>=</mo><mn> 90 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> c </mi><mi mathvariant=\"normal\"> m </mi></mrow></mrow></math> The ratio of the sizes of two images formed on the screen, <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> &beta; </mi><mo>=</mo><msup><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><mfrac><mrow><mi> D </mi><mo>+</mo><mi> x </mi></mrow><mrow><mi> D </mi><mo>&minus;</mo><mi> x </mi></mrow></mfrac><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mn> 2 </mn></mrow></msup></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> &beta; </mi><mo>=</mo><msup><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><mfrac><mrow><mn> 150 </mn><mo>+</mo><mn> 90 </mn></mrow><mrow><mn> 150 </mn><mo>&minus;</mo><mn> 90 </mn></mrow></mfrac><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mn> 2 </mn></mrow></msup></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> &beta; </mi><mo>=</mo><msup><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><mfrac><mrow><mn> 240 </mn></mrow><mrow><mn> 60 </mn></mrow></mfrac><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mn> 2 </mn></mrow></msup><mo>=</mo><mo stretchy=\"false\">(</mo><mn> 4 </mn><msup><mo stretchy=\"false\">)</mo><mrow><mn> 2 </mn></mrow></msup><mo>=</mo><mn> 16 </mn></mrow></math></h3>",
+   "answer": "16",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68f21caf941cda588bc04365",
+  "qid": "SecAQ3",
+  "questionType": "mcq",
+  "subject": "Physics",
+  "chapter": "Mathematics in physics",
+  "concept": "Basic functions used in physics",
+  "subConcept": "Linear function",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2025-12-27T14:39:34.541Z",
+  "mcq": {
+   "question": "<h3>A sample of nuclei X contains <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 48 </mn><mi>&times;</mi><msup><mn> 10 </mn><mrow><mn> 23 </mn></mrow></msup></mrow></math> nuclei at some time and reduced to <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 6 </mn><mi>&times;</mi><msup><mn> 10 </mn><mrow><mn> 23 </mn></mrow></msup></mrow></math> nuclei in 3 minutes. The mean life of nucleus <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> X </mi></mrow></math> is roughly?<br />\n(A) 0.693 min<br />\n(B) 1.44 min<br />\n(C) 2.079 min<br />\n(D) 4.329 min&nbsp;</h3>\n",
+   "solution": "<p>A sample of nuclei decreases from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mn>48</mn><mo>&times;</mo><msup><mn>10</mn><mn>23</mn></msup> </math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mn>6</mn><mo>&times;</mo><msup><mn>10</mn><mn>23</mn></msup> </math> in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> minutes.</p>\n\n<p>Radioactive decay law: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mi>N</mi> <mo>=</mo> <msub><mi>N</mi><mn>0</mn></msub> <msup> <mi>e</mi> <mrow> <mo>&minus;</mo> <mfrac> <mi>t</mi> <mi>&tau;</mi> </mfrac> </mrow> </msup> </math></p>\n\n<p>Here <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mfrac> <mi>N</mi> <msub><mi>N</mi><mn>0</mn></msub> </mfrac> <mo>=</mo> <mfrac><mn>6</mn><mn>48</mn></mfrac> <mo>=</mo> <mfrac><mn>1</mn><mn>8</mn></mfrac> </math> so <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mfrac> <mi>N</mi> <msub><mi>N</mi><mn>0</mn></msub> </mfrac> <mo>=</mo> <msup> <mi>e</mi> <mrow> <mo>&minus;</mo> <mfrac> <mi>t</mi> <mi>&tau;</mi> </mfrac> </mrow> </msup> <mo>=</mo> <mfrac><mn>1</mn><mn>8</mn></mfrac> </math></p>\n\n<p>Taking natural logarithm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mi>ln</mi> <mo stretchy=\"false\">(</mo> <mfrac><mn>1</mn><mn>8</mn></mfrac> <mo stretchy=\"false\">)</mo> <mo>=</mo> <mo>&minus;</mo> <mfrac> <mi>t</mi> <mi>&tau;</mi> </mfrac> </math> so <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mfrac> <mi>t</mi> <mi>&tau;</mi> </mfrac> <mo>=</mo> <mi>ln</mi> <mo stretchy=\"false\">(</mo> <mn>8</mn> <mo stretchy=\"false\">)</mo> </math> and therefore <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mi>&tau;</mi> <mo>=</mo> <mfrac> <mi>t</mi> <mi>ln⁡(8)</mi> </mfrac> </math> .</p>\n\n<p>Since <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mi>t</mi><mo>=</mo><mn>3</mn><mo>&nbsp;</mo><mi>min</mi> </math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mi>ln</mi> <mo stretchy=\"false\">(</mo> <mn>8</mn> <mo stretchy=\"false\">)</mo> <mo>=</mo> <mi>ln</mi> <mo stretchy=\"false\">(</mo> <msup><mn>2</mn><mn>3</mn></msup> <mo stretchy=\"false\">)</mo> <mo>=</mo> <mn>3</mn><mi>ln</mi> <mo stretchy=\"false\">(</mo><mn>2</mn><mo stretchy=\"false\">)</mo> <mo>&asymp;</mo> <mn>2.079</mn> </math> we get <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mi>&tau;</mi> <mo>=</mo> <mfrac> <mn>3</mn> <mn>2.079</mn> </mfrac> <mo>&asymp;</mo> <mn>1.44</mn><mo>&nbsp;</mo><mi>min</mi> </math> .</p>\n\n<p>Hence the mean life of the nucleus is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mi>&tau;</mi><mo>&asymp;</mo><mn>1.44</mn><mo>&nbsp;</mo><mi>min</mi> </math> .</p>\n",
+   "answer": [
+    "",
+    "B"
+   ],
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "60f744b3f1b9bc7cc7b4a949",
+  "qid": null,
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Alternating Current and EM Waves",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2025-10-23T09:32:22.361Z",
+  "scq": {
+   "question": "<h3><span style=\"color:#000000\">In a LCR circuit the pd between the terminals of the inductance is 60 V, between the terminals of the capacitor is 30V and that between the terminals of resistance is 40V. the supply voltage will be equal to &hellip;&hellip;<span style=\"color:#000000\"></h3><h3>(A)<span style=\"color:#000000\"> <span style=\"color:#000000\">50 V<br />(B)<span style=\"color:#000000\"> <span style=\"color:#000000\">70 V<br />(C)<span style=\"color:#000000\"> </span><span style=\"color:#000000\">130 V<br />(D)</span></span></span><span style=\"color:#000000\"> </span></span></span><span style=\"color:#000000\">10 V</span></span></span></h3>",
+   "solution": "<h3><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>V</mi><mo>&#x0003D;</mo><msqrt><mrow><msubsup><mi>V</mi><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msubsup><mo>&#x0002B;</mo><msup><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><msub><mi>V</mi><mrow><mi>L</mi></mrow></msub><mo>&#x02212;</mo><msub><mi>V</mi><mrow><mi>C</mi></mrow></msub><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mrow><mn>2</mn></mrow></msup></mrow></msqrt></mrow></mstyle></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><msqrt><mrow><mo stretchy=\"false\">&#x00028;</mo><mn>40</mn><msup><mo stretchy=\"false\">&#x00029;</mo><mrow><mn>2</mn></mrow></msup><mo>&#x0002B;</mo><mo stretchy=\"false\">&#x00028;</mo><mn>60</mn><mo>&#x02212;</mo><mn>30</mn><msup><mo stretchy=\"false\">&#x00029;</mo><mrow><mn>2</mn></mrow></msup></mrow></msqrt><mo>&#x0003D;</mo><mn>50</mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">V</mi></mrow></mrow></mstyle></math></h3>",
+   "answer": "C",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68c801bc1b1dbc16dc93bf2b",
+  "qid": "SecAQ5",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Photoelectric effect and matter waves",
+  "concept": "De Broglie's hypothesis of a matter wave",
+  "subConcept": "De Broglie Wavelength",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2025-11-21T04:32:00.028Z",
+  "scq": {
+   "question": "<h3>What should be the approximate kinetic energy of an electron so that its de-Broglie wavelength is equal to the wavelength of X-ray of maximum energy, produced in an X-ray tube operating at 24800 V ? (given that <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>&#x00068;</mi><mo>&#x0003D;</mo><mn>6.6</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>34</mn></mrow></msup></mrow></mstyle></math> joule-sec, mass of electron <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><mn>9.1</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>31</mn></mrow></msup><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">k</mi><mi mathvariant=\"normal\">g</mi></mrow></mrow></mstyle></math> )<br/>(A) 600 eV<br/>(B) 365 eV<br/>(C) 120 eV<br/>(D) 300 eV</h3>",
+   "solution": "<h3>We want the kinetic energy of an electron such that:<br/><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><msub><mi>&#x003BB;</mi><mrow><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">e</mi><mi mathvariant=\"normal\">B</mi></mrow></mrow></msub><mo>&#x0003D;</mo><msub><mi>&#x003BB;</mi><mrow><mo>min</mo></mrow></msub></mrow></mstyle></math><br/><br/>For X-ray tube at accelerating potential <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>&#x00056;</mi><mo>&#x0003D;</mo><mn>24</mn><mo>&#x0002C;</mo><mn>800</mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">V</mi></mrow></mrow></mstyle></math> :<br/><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><msub><mi>&#x003BB;</mi><mrow><mo>min</mo></mrow></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>h</mi><mi>c</mi></mrow><mrow><mi>e</mi><mi>V</mi></mrow></mfrac></mrow></mstyle></math><br/><br/>De-Broglie wavelength of electron:<br/><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><msub><mi>&#x003BB;</mi><mrow><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">e</mi><mi mathvariant=\"normal\">B</mi></mrow></mrow></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>h</mi></mrow><mrow><msqrt><mrow><mn>2</mn><mi>m</mi><mi>K</mi></mrow></msqrt></mrow></mfrac></mrow></mstyle></math><br/><br/>Setting them equal:<br/><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mi>h</mi></mrow><mrow><msqrt><mrow><mn>2</mn><mi>m</mi><mi>K</mi></mrow></msqrt></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mi>h</mi><mi>c</mi></mrow><mrow><mi>e</mi><mi>V</mi></mrow></mfrac></mrow></mstyle></math><br/><br/>Cancel <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>h</mi></mrow></mstyle></math> :<br/><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><mtable><mtr><mtd columnalign=\"left\"><mfrac><mrow><mn>1</mn></mrow><mrow><msqrt><mrow><mn>2</mn><mi>m</mi><mi>K</mi></mrow></msqrt></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mi>c</mi></mrow><mrow><mi>e</mi><mi>V</mi></mrow></mfrac></mtd></mtr><mtr><mtd columnalign=\"left\"><msqrt><mrow><mn>2</mn><mi>m</mi><mi>K</mi></mrow></msqrt><mo>&#x0003D;</mo><mfrac><mrow><mi>e</mi><mi>V</mi></mrow><mrow><mi>c</mi></mrow></mfrac></mtd></mtr></mtable></mrow></mstyle></math> <math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><mrow><mi>K</mi><mi>&</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>1.574</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>29</mn></mrow></msup></mrow><mrow><mn>1.638</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>13</mn></mrow></msup></mrow></mfrac><mspace linebreak=\"newline\" /><mi>K</mi><mi>&</mi><mo>&#x02248;</mo><mn>9.6</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>17</mn></mrow></msup><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">J</mi></mrow></mrow></mrow></mstyle></math><br/><br/>Convert to eV :<br/><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><mi>K</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>9.6</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>17</mn></mrow></msup></mrow><mrow><mn>1.6</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>19</mn></mrow></msup></mrow></mfrac><mo>&#x02248;</mo><mn>600</mn><mrow><mi mathvariant=\"normal\">e</mi><mi mathvariant=\"normal\">V</mi></mrow></mrow></mstyle></math></h3>",
+   "answer": "A",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68dea577d0cda73d07e9391c",
+  "qid": "SecBQ25",
+  "questionType": "integerQuestion",
+  "subject": "Physics",
+  "chapter": "Electrostatics",
+  "concept": "Electrostatic potential and energy",
+  "subConcept": "Electric Potential due to Charged Sphere",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2025-10-13T18:04:21.032Z",
+  "integerQuestion": {
+   "question": "<h3>A total charge <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi> Q </mi></mrow></math> is uniformly distributed throughout the volume of a sphere. Electric potential at a point on the surface of the sphere is greater than the potential at infinity by <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn> 16 </mn><mspace width=\"0.278em\" /><mi> V </mi></mrow></math>. Find the potential difference (in volt) between point <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi> 𝐏 </mi></mrow></math> at a distance half of the radius of the sphere from the centre and the point <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi> 𝐒 </mi></mrow></math> at a distance double the radius of the sphere from the centre of the sphere.</h3>",
+   "solution": "<h3>Let <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> R </mi></mrow></math> be the radius of the sphere, therefore, potential on the surface is given by <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi> V </mi><mrow><mn> 0 </mn></mrow></msub><mo>=</mo><msub><mi> V </mi><mrow><mo>&infin;</mo></mrow></msub><mo>+</mo><mfrac><mrow><mi> K </mi><mi> Q </mi></mrow><mrow><mi> R </mi></mrow></mfrac><mo>=</mo><msub><mi> V </mi><mrow><mo>&infin;</mo></mrow></msub><mo>+</mo><mi> V </mi></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&rArr;</mo><mi> V </mi><mo>=</mo><mfrac><mrow><mi> K </mi><mi> Q </mi></mrow><mrow><mi> R </mi></mrow></mfrac></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∵</mo><msub><mi> V </mi><mrow><mi> P </mi></mrow></msub><mo>=</mo><msub><mi> V </mi><mrow><mo>&infin;</mo></mrow></msub><mo>+</mo><mfrac><mrow><mi> K </mi><mi> Q </mi></mrow><mrow><mn> 2 </mn><msup><mi> R </mi><mrow><mn> 3 </mn></mrow></msup></mrow></mfrac><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><mn> 3 </mn><msup><mi> R </mi><mrow><mn> 2 </mn></mrow></msup><mo>&minus;</mo><mfrac><mrow><msup><mi> R </mi><mrow><mn> 2 </mn></mrow></msup></mrow><mrow><mn> 4 </mn></mrow></mfrac><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>=</mo><msub><mi> V </mi><mrow><mo>&infin;</mo></mrow></msub><mo>+</mo><mfrac><mrow><mn> 11 </mn><mi> V </mi></mrow><mrow><mn> 8 </mn></mrow></mfrac></mrow></math> and <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi> V </mi><mrow><mi> S </mi></mrow></msub><mo>=</mo><msub><mi> V </mi><mrow><mo>&infin;</mo></mrow></msub><mo>+</mo><mfrac><mrow><mi> K </mi><mi> Q </mi></mrow><mrow><mn> 2 </mn><mi> R </mi></mrow></mfrac><mo>=</mo><msub><mi> V </mi><mrow><mo>&infin;</mo></mrow></msub><mo>+</mo><mfrac><mrow><mi> V </mi></mrow><mrow><mn> 2 </mn></mrow></mfrac></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&rArr;</mo><msub><mi> V </mi><mrow><mi> P </mi></mrow></msub><mo>&minus;</mo><msub><mi> V </mi><mrow><mi> S </mi></mrow></msub><mo>=</mo><mfrac><mrow><mn> 7 </mn><mi> V </mi></mrow><mrow><mn> 8 </mn></mrow></mfrac><mo>=</mo><mn> 14 </mn><mi> V </mi></mrow></math></h3>\n",
+   "answer": "14",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "636283dbe3770c24f866e6d6",
+  "qid": "ci64iWyXK",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Electrostatics",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2025-10-23T10:04:12.051Z",
+  "scq": {
+   "question": "<h3>Sixty four conducting drops each of radius 0.02 m and each carrying a charge of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>5</mn><mi>&#x003BC;</mi><mi>&#x00043;</mi></mrow></mstyle></math> are combined to form a bigger drop. The ratio of surface density of bigger drop to the smaller drop will be :<br/>(A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>1</mn><mi>:</mi><mn>4</mn></mrow></mstyle></math><br/>(B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>4</mn><mi>:</mi><mn>1</mn></mrow></mstyle></math><br/>(C) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>1</mn><mi>:</mi><mn>8</mn></mrow></mstyle></math><br/>(D) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>8</mn><mi>:</mi><mn>1</mn></mrow></mstyle></math></h3>",
+   "solution": "<h3>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>&#x00052;</mi><mo>&#x0003D;</mo></mrow></mstyle></math> radius of combined drop<br/><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>r</mi><mo>&#x0003D;</mo></mrow></mstyle></math> radius of smaller drop<br/>Volume will remain same<br/><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><mtable><mtr><mtd columnalign=\"left\"><mspace width=\"1em\" /><mfrac><mrow><mn>4</mn></mrow><mrow><mn>3</mn></mrow></mfrac><mi>&#x003C0;</mi><msup><mi>R</mi><mrow><mn>3</mn></mrow></msup><mo>&#x0003D;</mo><mn>64</mn><mi>&#x000D7;</mi><mfrac><mrow><mn>4</mn></mrow><mrow><mn>3</mn></mrow></mfrac><mi>&#x003C0;</mi><msup><mi>r</mi><mrow><mn>3</mn></mrow></msup></mtd></mtr><mtr><mtd columnalign=\"left\"><mi>R</mi><mo>&#x0003D;</mo><mn>4</mn><mi>r</mi></mtd></mtr><mtr><mtd columnalign=\"left\"><mi>Q</mi><mo>&#x0003D;</mo><mn>64</mn><mi>q</mi><mi>;</mi></mtd></mtr></mtable></mrow></mstyle></math><br/>q : charge of smaller drop<br/>Q : Charge of combined drop<br/><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\" ><mstyle displaystyle=\"true\"><mrow><mtable><mtr><mtd columnalign=\"left\"><mfrac><mrow><msub><mi>&#x003C3;</mi><mrow><mtext>bigger&#x000A0;</mtext></mrow></msub></mrow><mrow><msub><mi>&#x003C3;</mi><mrow><mtext>smaller&#x000A0;</mtext></mrow></msub></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mfrac><mrow><mi>Q</mi></mrow><mrow><mn>4</mn><mi>&#x003C0;</mi><msup><mi>R</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow><mrow><mfrac><mrow><mi>q</mi></mrow><mrow><mn>4</mn><mi>&#x003C0;</mi><msup><mi>r</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mi>Q</mi></mrow><mrow><mi>q</mi></mrow></mfrac><mi>&#x000B7;</mi><mfrac><mrow><msup><mi>r</mi><mrow><mn>2</mn></mrow></msup></mrow><mrow><msup><mi>R</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mtd></mtr><mtr><mtd columnalign=\"left\"><mo>&#x0003D;</mo><mn>64</mn><mfrac><mrow><msup><mi>r</mi><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>16</mn><msup><mi>r</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac><mo>&#x0003D;</mo><mn>4</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mfrac><mrow><msub><mi>&#x003C3;</mi><mrow><mtext>bigger&#x000A0;</mtext></mrow></msub></mrow><mrow><msub><mi>&#x003C3;</mi><mrow><mtext>smaller&#x000A0;</mtext></mrow></msub></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mn>4</mn></mrow><mrow><mn>1</mn></mrow></mfrac></mtd></mtr></mtable></mrow></mstyle></math></h3>",
+   "answer": "B",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "6263d75bdd44e265ef926d97",
+  "qid": "I7Nnjj-FJ6",
+  "questionType": "integerQuestion",
+  "subject": "Physics",
+  "chapter": "Properties of matter and fluid mechanics",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2025-10-23T10:53:54.666Z",
+  "integerQuestion": {
+   "question": "<h3><span style=\"color:#000000\">A wooden cube just floats inside water when a 800 g mass is placed on it. When the mass is removed, the cube is 2 cm above the water level. What is the size of the side of the cube (in cm) ?</span></h3>",
+   "solution": "<h3><span style=\"color:#000000\">Let a be the size of each side of the cube. Then,<br />\r\n\r\n <span style=\"color:#000000\">800 &times; g = (2) &times; (a<span style=\"color:#000000\"><sup>2</sup><span style=\"color:#000000\">) &times; 1 &times; g</span></span><br />\r\n\r\n <span style=\"color:#000000\">a = 40 cm</span></span></span></h3>",
+   "answer": "20",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "622f08d7b70e4b50e4500a1b",
+  "qid": "jxJrYy6ka",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Centre of mass and momentum conservation (collision)",
+  "concept": null,
+  "subConcept": null,
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2025-10-23T07:58:06.677Z",
+  "scq": {
+   "question": "<h3>Two blocks of masses 10 kg and 4 kg are connected by a spring of negligible mass and placed on a frictionless horizontal surface. An impulse gives a velocity of <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>14</mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">m</mi></mrow><mo>&#x0002F;</mo><mi>&#x00073;</mi></mrow></mstyle></math> to the heavier block in the direction of the lighter block. The velocity of the centre of mass is<br/>(A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>30</mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">m</mi></mrow><mo>&#x0002F;</mo><mi>&#x00073;</mi></mrow></mstyle></math><br/>(B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>20</mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">m</mi></mrow><mo>&#x0002F;</mo><mi>&#x00073;</mi></mrow></mstyle></math><br/>(C) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>10</mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">m</mi></mrow><mo>&#x0002F;</mo><mi>&#x00073;</mi></mrow></mstyle></math></h3>",
+   "solution": "<h3><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mrow><msub><mi>v</mi><mrow><mrow><mi mathvariant=\"normal\">C</mi><mi mathvariant=\"normal\">M</mi></mrow></mrow></msub><mi>&</mi><mo>&#x0003D;</mo><mfrac><mrow><msub><mi>m</mi><mrow><mn>1</mn></mrow></msub><msub><mi>v</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002B;</mo><msub><mi>m</mi><mrow><mn>2</mn></mrow></msub><msub><mi>v</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow><msub><mi>m</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002B;</mo><msub><mi>m</mi><mrow><mn>2</mn></mrow></msub></mrow></mfrac><mspace linebreak=\"newline\" /><mi>&</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>10</mn><mi>&#x000D7;</mi><mn>14</mn><mo>&#x0002B;</mo><mn>4</mn><mi>&#x000D7;</mi><mn>0</mn></mrow><mrow><mn>10</mn><mo>&#x0002B;</mo><mn>4</mn></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mn>140</mn></mrow><mrow><mn>14</mn></mrow></mfrac><mo>&#x0003D;</mo><mn>10</mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">m</mi></mrow><mo>&#x0002F;</mo><mi>&#x00073;</mi></mrow></mrow></mstyle></math></h3>",
+   "answer": "C",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "63765a28f1d8416ae0408d89",
+  "qid": "U91mXru5mg",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Nuclear physics and radioactivity",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2025-11-05T05:48:05.215Z",
+  "scq": {
+   "question": "<h3>The half life period of a radioactive substance is 60 days. The time taken for \\frac{7}{8} th of its original mass to disintegrate will be :<br/>(A) 120 days<br/>(B) 130 days<br/>(C) 180 days<br/>(D) 20 days</h3>",
+   "solution": "<h3>7/8 disintegrates means 1/8 remains<br/><br/>Or <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><msup><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mrow><mn>3</mn></mrow></msup></mrow></mstyle></math><br/><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x02234;</mo><mn>3</mn></mrow></mstyle></math> half lives<br/><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><mn>180</mn></mrow></mstyle></math> days</h3>",
+   "answer": "C",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68c8153cfb6b2f16e2d3ceaf",
+  "qid": "SecAQ7",
+  "questionType": "mcq",
+  "subject": "Physics",
+  "chapter": "Electrostatics",
+  "concept": "Electric field",
+  "subConcept": "Motion of charge particle in electric field",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2026-01-30T08:01:51.964Z",
+  "mcq": {
+   "question": "<h3>Select the correct statement(s) from the following. The path of a charged particle moving with an initial velocity u</h3>\n\n<h3><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo stretchy=\"false\">(A)</mo></mrow></math> parallel to the uniform electrostatic field is a straight line.<br />\n<mspace linebreak=\"newline\"><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo stretchy=\"false\">(B)</mo></mrow></math> perpendicular to the uniform electrostatic field is a parabola.<br />\n<mspace linebreak=\"newline\"><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo stretchy=\"false\">(C)</mo></mrow></math> parallel to the uniform magnetic field is a helix with its axis parallel to the direction of<br />\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> B </mi></mrow></math>.<br />\n<mspace linebreak=\"newline\"><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo stretchy=\"false\">(D)</mo></mrow></math> perpendicular to the uniform magnetic field is a circle in a plane normal to the field.</mspace></mspace></mspace></h3>\n<mspace linebreak=\"newline\"></mspace>",
+   "solution": "<h3>conceptual Based of field force<br />\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mo>=</mo><mi>q</mi><mo>(</mo><mi>V</mi><mo>&times;</mo><mi>B</mi><mo>)</mo></math><br />\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mo>=</mo><mi>q</mi><mi>E</mi></math></h3>\n",
+   "answer": [
+    "A, B, D"
+   ],
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "6956d7e988d7701e5617bd3e",
+  "qid": "MHCET_gNlzG0ZcBlNSzwBSMUak_PHY_129",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Oscillations",
+  "concept": "Simple harmonic motion",
+  "subConcept": "Velocity and acceleration in SHM",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2026-02-28T17:46:16.154Z",
+  "scq": {
+   "question": "<h3>A particle performing SHM starts equilibrium position and its time period is 16 seconds. After 2 seconds its velocity is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003C0;</mi><mi>&#x0006D;</mi><mo>&#x0002F;</mo><mi>&#x00073;</mi></mrow></math>. Amplitude of oscillation is <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mi> cos </mi><msup><mn> 45 </mn><mrow><mo>&#x02218;</mo></mrow></msup><mo>&#x0003D;</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><msqrt><mrow><mn> 2 </mn></mrow></msqrt></mrow></mfrac><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow></mrow></mstyle></math>\n<br/>(A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn> 2 </mn><msqrt><mrow><mn> 2 </mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\"> m </mi></mrow></mrow></msqrt></mrow></math>\n<br/>(B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn> 4 </mn><msqrt><mrow><mn> 2 </mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\"> m </mi></mrow></mrow></msqrt></mrow></math>\n<br/>(C) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn> 6 </mn><msqrt><mrow><mn> 2 </mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\"> m </mi></mrow></mrow></msqrt></mrow></math>\n<br/>(D) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn> 8 </mn><msqrt><mrow><mn> 2 </mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\"> m </mi></mrow></mrow></msqrt></mrow></math></h3>",
+   "solution": "<h3>Given, particle velocity, <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> v </mi><mo>=</mo><mi>&pi;</mi><mi>m</mi><mo>/</mo><mi>s</mi></mrow></math> and time period <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> T </mi><mo>=</mo><mn> 16 </mn><mrow><mtext>&nbsp;</mtext><mi mathvariant=\"normal\"> s </mi></mrow></mrow></math><br />\nDisplacement of the particle, <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> x </mi><mo>=</mo><mi> A </mi><mi> sin </mi><mi>&omega;</mi><mi> t </mi></mrow></math> Velocity of the particle,<br />\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mi> v </mi><mo>&minus;</mo><mfrac><mrow><mi> d </mi><mi> x </mi></mrow><mrow><mi> d </mi><mi> t </mi></mrow></mfrac><mo>&minus;</mo><mi> A </mi><mi>&omega;</mi><mi> cos </mi><mi>&omega;</mi><mi> t </mi></mrow></mstyle></math><br />\n<br />\nAngular velocity,<br />\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mi>&omega;</mi><mo>=</mo><mfrac><mrow><mn> 2 </mn><mi>&pi;</mi></mrow><mrow><mi> T </mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn> 2 </mn><mi>&pi;</mi></mrow><mrow><mn> 16 </mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>&pi;</mi></mrow><mrow><mn> 8 </mn></mrow></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\"> r </mi><mi mathvariant=\"normal\"> a </mi><mi mathvariant=\"normal\"> d </mi></mrow><mo>/</mo><mi>s</mi></mrow></mstyle></math><br />\nNow from eq. (i),<br />\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mi>&pi;</mi><mo>=</mo><mi> A </mi><mi>&times;</mi><mfrac><mrow><mi>&pi;</mi></mrow><mrow><mn> 8 </mn></mrow></mfrac><mi>&times;</mi><mi> cos </mi><mfrac><mrow><mi>&pi;</mi></mrow><mrow><mn> 8 </mn></mrow></mfrac><mi>&times;</mi><mn> 2 </mn></mrow></mstyle></math><br />\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mrow><mn> 1 </mn><mo>=</mo><mfrac><mrow><mi> A </mi></mrow><mrow><mn> 8 </mn></mrow></mfrac><mi> cos </mi><mfrac><mrow><mi>&pi;</mi></mrow><mrow><mn> 4 </mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mi> A </mi></mrow><mrow><mn> 8 </mn></mrow></mfrac><mi>&middot;</mi><mfrac><mrow><mn> 1 </mn></mrow><mrow><msqrt><mrow><mn> 2 </mn></mrow></msqrt></mrow></mfrac></mrow></mstyle></math><br />\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&there4;</mo><mi> A </mi><mo>=</mo><mn> 8 </mn><msqrt><mrow><mn> 2 </mn></mrow></msqrt><mrow><mtext>&nbsp;</mtext><mi mathvariant=\"normal\"> m </mi></mrow></mrow></math></h3>\n",
+   "answer": "D",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "6956d7bb23cb221e570d6013",
+  "qid": "MHCET_Dyqq8UM5069PfvNTSZqs_PHY_99",
+  "questionType": "scq",
+  "subject": "Physics",
+  "chapter": "Motion in a Plane",
+  "concept": "Projectile motion",
+  "subConcept": "Horizontal range",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2026-02-28T17:45:42.731Z",
+  "scq": {
+   "question": "<h3>The angle of projection of a projectile for which horizontal range and height attain same magnitude is\n\n<br/>(A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mi> tan </mi><mrow><mo>&#x02212;</mo><mn> 1 </mn></mrow></msup><mo stretchy=\"false\">&#x00028;</mo><mn> 2 </mn><mo stretchy=\"false\">&#x00029;</mo></mrow></math>\n<br/>(B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mi> tan </mi><mrow><mo>&#x02212;</mo><mn> 1 </mn></mrow></msup><mo stretchy=\"false\">&#x00028;</mo><mn> 4 </mn><mo stretchy=\"false\">&#x00029;</mo></mrow></math>\n<br/>(C) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mi> tan </mi><mrow><mo>&#x02212;</mo><mn> 1 </mn></mrow></msup><mo stretchy=\"false\">&#x00028;</mo><mn> 3 </mn><mo stretchy=\"false\">&#x00029;</mo></mrow></math>\n<br/>(D) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mi> tan </mi><mrow><mo>&#x02212;</mo><mn> 1 </mn></mrow></msup><mo stretchy=\"false\">&#x00028;</mo><mn> 0.5 </mn><mo stretchy=\"false\">&#x00029;</mo></mrow></math></h3>",
+   "solution": "<h3>Solution:<br/>(b) Here, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x00048;</mi><mo>&#x0003D;</mo><mi>&#x00052;</mi></mrow></math><br/><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><msup><mi>&#x00075;</mi><mrow><mn> 2 </mn></mrow></msup><msup><mi> sin </mi><mrow><mn> 2 </mn></mrow></msup><mi>&#x003B8;</mi></mrow><mrow><mn> 2 </mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\"> g </mi></mrow></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><msup><mi>&#x00075;</mi><mrow><mn> 2 </mn></mrow></msup><mi> sin </mi><mn> 2 </mn><mi>&#x003B8;</mi></mrow><mrow><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\"> g </mi></mrow></mrow></mfrac></mrow></mstyle></math><br/><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x021D2;</mo><mfrac><mrow><msup><mi> sin </mi><mrow><mn> 2 </mn></mrow></msup><mi>&#x003B8;</mi></mrow><mrow><mn> 2 </mn></mrow></mfrac><mo>&#x0003D;</mo><mi> sin </mi><mn> 2 </mn><mi>&#x003B8;</mi></mrow></mstyle></math><br/><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x021D2;</mo><mfrac><mrow><msup><mi> sin </mi><mrow><mn> 2 </mn></mrow></msup><mi>&#x003B8;</mi></mrow><mrow><mn> 2 </mn></mrow></mfrac><mo>&#x0003D;</mo><mn> 2 </mn><mi> sin </mi><mi>&#x003B8;</mi><mi> cos </mi><mi>&#x003B8;</mi></mrow></mstyle></math><br/><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x021D2;</mo><mfrac><mrow><mi> sin </mi><mi>&#x003B8;</mi></mrow><mrow><mi> cos </mi><mi>&#x003B8;</mi></mrow></mfrac><mo>&#x0003D;</mo><mn> 4 </mn><mo>&#x021D2;</mo><mi> tan </mi><mi>&#x003B8;</mi><mo>&#x0003D;</mo><mn> 4 </mn></mrow></mstyle></math><br/><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x021D2;</mo><mi>&#x003B8;</mi><mo>&#x0003D;</mo><msup><mi> tan </mi><mrow><mo>&#x02212;</mo><mn> 1 </mn></mrow></msup><mo stretchy=\"false\">&#x00028;</mo><mn> 4 </mn><mo stretchy=\"false\">&#x00029;</mo></mrow></math></h3>",
+   "answer": "B",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68dea7c2387eea3d0d95f9bb",
+  "qid": "SecAQ16",
+  "questionType": "integerQuestion",
+  "subject": "Physics",
+  "chapter": "Wave optics",
+  "concept": "Young double slit experiment setup",
+  "subConcept": "Cases when central maxima is not in Centre",
+  "level": "MEDIUM",
+  "error": 1,
+  "updatedAt": "2025-10-23T11:40:24.865Z",
+  "integerQuestion": {
+   "question": "<h3>In YDSE distance between the slits plane and screen is 1 m and distance between two slits is 5 mm . If slabs of thickness 2 mm and 1.5 mm having refractive index 1.5 and 1.4 are placed in front of two slits, find the shift (in cm ) of central maxima</h3>",
+   "solution": "<h3><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mspace width=\"1em\"></mspace><mi> D </mi><mo>=</mo><mn> 1 </mn><mtext> </mtext><mi> m </mi><mo>,</mo><mtext> </mtext><mi> d </mi><mo>=</mo><mn> 5 </mn><mi>&times;</mi><msup><mn> 10 </mn><mrow><mo>&minus;</mo><mn> 3 </mn></mrow></msup><mtext> </mtext><mi> m</mi></mrow></math><br />shift <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mfrac><mrow><mi> D </mi></mrow><mrow><mi> d </mi></mrow></mfrac><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">[</mo><msub><mi> t </mi><mrow><mn> 1 </mn></mrow></msub><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><msub><mi> &mu; </mi><mrow><mn> 1 </mn></mrow></msub><mo>&minus;</mo><mn> 1 </mn><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>&minus;</mo><msub><mi> t </mi><mrow><mn> 2 </mn></mrow></msub><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><msub><mi> &mu; </mi><mrow><mn> 2 </mn></mrow></msub><mo>&minus;</mo><mn> 1 </mn><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></math><br /><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 5 </mn><mi>&times;</mi><msup><mn> 10 </mn><mrow><mo>&minus;</mo><mn> 3 </mn></mrow></msup></mrow></mfrac><mo stretchy=\"false\">[</mo><mn> 2 </mn><mo stretchy=\"false\">(</mo><mn> 1.5 </mn><mo>&minus;</mo><mn> 1 </mn><mo stretchy=\"false\">)</mo><mo>&minus;</mo><mn> 1.5 </mn><mo stretchy=\"false\">(</mo><mn> 1.4 </mn><mo>&minus;</mo><mn> 1 </mn><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">]</mo><mi>&times;</mi><msup><mn> 10 </mn><mrow><mo>&minus;</mo><mn> 3 </mn></mrow></msup><mo>=</mo><mfrac><mrow><mn> 0.4 </mn></mrow><mrow><mn> 5 </mn></mrow></mfrac><mo>=</mo><mn> 0.08 </mn><mtext> </mtext><mrow><mtext> </mtext><mi mathvariant=\"normal\"> m </mi></mrow></mrow></math>.</h3>",
+   "answer": "8",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ },
+ {
+  "_id": "68ecbacb2ec87a18deba1ad7",
+  "qid": null,
+  "questionType": "scq",
+  "subject": "Botany",
+  "chapter": "The Living World",
+  "concept": null,
+  "subConcept": null,
+  "level": "EASY",
+  "error": 1,
+  "updatedAt": "2026-01-25T11:12:43.984Z",
+  "scq": {
+   "question": "<h3>The absolute refractory period during an action potential generation is primarily caused by:<br />\n(A) Closure of voltage-gated K<sup>+</sup> channels.<br />\n(B) Inactivation of voltage-gated Na<sup>+&nbsp;</sup>channels.<br />\n(C) Increased permeability to Cl<sup>&minus;&nbsp;</sup>ions.<br />\n(D) Continuous activation of the Na<sup>+</sup>/K<sup>+&nbsp;</sup>pump.</h3>\n",
+   "solution": "<h3>The absolute refractory period is the short interval immediately following the generation of an action potential during which the neuron is completely incapable of generating another action potential, regardless of the strength of the stimulus. This period is primarily due to the inactivation of the voltage-gated Na+channels. Although the membrane is depolarized (which would normally open them), these specific channels enter a temporary, locked inactivated state that prevents them from opening again, thereby halting the influx of Na+ ions required for a new depolarization.</h3>\n",
+   "answer": "B",
+   "quesImages": [],
+   "solutionImages": []
+  },
+  "errorHistory": []
+ }
+]
